@@ -4,7 +4,7 @@ Pathogen: https://github.com/tpope/vim-pathogen
 ir_black: https://github.com/wgibbs/vim-irblack
 
 Things I've used:
-git://github.com/tpope/vim-pathogen.git
+git://github.com/tpope/vim-cucumber.git
 git://github.com/vim-ruby/vim-ruby.git
 git://github.com/timcharper/textile.vim.git
 git://github.com/tpope/vim-markdown.git
