@@ -1,12 +1,12 @@
 ohai .vim
 
 Pathogen: https://github.com/tpope/vim-pathogen
-ir_black: https://github.com/wgibbs/vim-irblack
+ir_black: git://github.com/wgibbs/vim-irblack.git
 
-Things I've used:
-git://github.com/tpope/vim-cucumber.git
-git://github.com/vim-ruby/vim-ruby.git
-git://github.com/timcharper/textile.vim.git
-git://github.com/tpope/vim-markdown.git
-git://github.com/tpope/vim-git.git
-git://github.com/dterei/VimBookmarking.git
+VIM Things I've used:
+Bookmarking: git://github.com/dterei/VimBookmarking.git
+Cucumber: git://github.com/tpope/vim-cucumber.git
+Git: git://github.com/tpope/vim-git.git
+Markdown: git://github.com/tpope/vim-markdown.git
+Ruby: git://github.com/vim-ruby/vim-ruby.git
+Textile: git://github.com/timcharper/textile.vim.git
