@@ -1,9 +1,11 @@
 ohai .vim
 
 Pathogen: https://github.com/tpope/vim-pathogen
-ir_black: git://github.com/wgibbs/vim-irblack.git
 
-VIM Things I've used:
+Colorscheme:
+SunburstVIM: git://github.com/tangphillip/SunburstVIM.git
+
+Other VIM Things I've used:
 Bookmarking: git://github.com/dterei/VimBookmarking.git
 Cucumber: git://github.com/tpope/vim-cucumber.git
 Git: git://github.com/tpope/vim-git.git
