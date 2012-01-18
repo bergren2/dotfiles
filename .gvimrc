@@ -3,3 +3,4 @@ set tabstop=2
 set shiftwidth=2
 highlight normal guibg=black
 highlight nontext guibg=black
+set guicursor+=a:blinkon0
