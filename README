@@ -10,5 +10,6 @@ Bookmarking: git://github.com/dterei/VimBookmarking.git
 Cucumber: git://github.com/tpope/vim-cucumber.git
 Git: git://github.com/tpope/vim-git.git
 Markdown: git://github.com/tpope/vim-markdown.git
+Rename: git://github.com/vim-scripts/Rename.git
 Ruby: git://github.com/vim-ruby/vim-ruby.git
 Textile: git://github.com/timcharper/textile.vim.git
