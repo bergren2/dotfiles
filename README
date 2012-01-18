@@ -1,1 +1,9 @@
 ohai .vim
+
+Things I've used:
+https://github.com/tpope/vim-cucumber.git
+git://github.com/vim-ruby/vim-ruby.git
+git://github.com/timcharper/textile.vim.git
+git://github.com/tpope/vim-markdown.git
+git://github.com/tpope/vim-git.git
+https://github.com/dterei/VimBookmarking.git
