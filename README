@@ -1,5 +1,8 @@
 ohai .vim
 
+Pathogen: https://github.com/tpope/vim-pathogen
+ir_black: https://github.com/wgibbs/vim-irblack
+
 Things I've used:
 https://github.com/tpope/vim-cucumber.git
 git://github.com/vim-ruby/vim-ruby.git
