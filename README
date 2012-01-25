@@ -9,6 +9,7 @@ Other VIM Things I've used:
 Bookmarking: git://github.com/dterei/VimBookmarking.git
 Cucumber: git://github.com/tpope/vim-cucumber.git
 Git: git://github.com/tpope/vim-git.git
+Indent-Guide: git://github.com/nathanaelkane/vim-indent-guides.git
 Markdown: git://github.com/tpope/vim-markdown.git
 NERD tree: git://github.com/scrooloose/nerdtree.git
 Ruby: git://github.com/vim-ruby/vim-ruby.git
