@@ -1,4 +1,5 @@
 set guifont=Monaco:h12
+set antialias
 set tabstop=2
 set shiftwidth=2
 highlight normal guibg=black
