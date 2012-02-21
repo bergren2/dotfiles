@@ -6,6 +6,7 @@ call pathogen#helptags()
 syntax on
 filetype plugin indent on
 highlight Normal guibg=Black guifg=White
+highlight nontext guibg=Black
 set background=dark
 set number 
 set cindent
@@ -17,3 +18,6 @@ set autoindent
 set expandtab
 retab
 
+" NERDTree and such
+hi NERDTreeDir guifg=#00AA00
+hi NERDTreeDirSlash guifg=#00AA00
