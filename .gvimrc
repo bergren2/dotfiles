@@ -1,3 +1,4 @@
+set guioptions-=T
 set guifont=Monaco:h12
 set antialias
 set guicursor+=a:blinkon0
