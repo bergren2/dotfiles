@@ -3,17 +3,17 @@ set guifont=Monaco:h12
 set antialias
 set guicursor+=a:blinkon0
 
-highlight Normal guibg=Black
-highlight nontext guibg=Black
+hi Normal guibg=Black
+hi nontext guibg=Black
 
 " highlights lines that are bookmarked with Bookmarking
-highlight default Bookmarking guifg=white guibg=RoyalBlue4 gui=bold
-highlight SignColumn guibg=#FFFFFF
+hi default Bookmarking guifg=white guibg=RoyalBlue4 gui=bold
+hi SignColumn guibg=#FFFFFF
 sign define bookmark linehl=Bookmarking
 
 " NERDTree and such
-highlight NERDTreeDir guifg=#00AA00
-highlight NERDTreeDirSlash guifg=#00AA00
+hi NERDTreeDir guifg=#00AA00
+hi NERDTreeDirSlash guifg=#00AA00
 
 
 " Changes the status bar color based on mode
