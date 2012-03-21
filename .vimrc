@@ -15,3 +15,6 @@ set scrolloff=3
 set autoindent
 set expandtab
 retab
+
+" NERDTree stuff
+let NERDTreeShowHidden=1
