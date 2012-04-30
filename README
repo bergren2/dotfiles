@@ -8,6 +8,7 @@ SunburstVIM: git://github.com/tangphillip/SunburstVIM.git
 Other VIM Things I've used:
 Bookmarking: git://github.com/dterei/VimBookmarking.git
 Cucumber: git://github.com/tpope/vim-cucumber.git
+Fugitive: git://github.com/tpope/vim-fugitive.git
 Git: git://github.com/tpope/vim-git.git
 Indent-Guide: git://github.com/nathanaelkane/vim-indent-guides.git
 Markdown: git://github.com/tpope/vim-markdown.git
