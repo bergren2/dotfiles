@@ -8,7 +8,7 @@ hi nontext guibg=Black
 
 " highlights lines that are bookmarked with Bookmarking
 hi default Bookmarking guifg=#FFFFFF guibg=#FF6600 gui=bold
-hi SignColumn guibg=#FFFFFF
+hi SignColumn guibg=#000000
 sign define bookmark linehl=Bookmarking
 
 " NERDTree and such
