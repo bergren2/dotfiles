@@ -17,3 +17,4 @@ NERD tree: git://github.com/scrooloose/nerdtree.git
 Rails: git://github.com/tpope/vim-rails.git
 Ruby: git://github.com/vim-ruby/vim-ruby.git
 Textile: git://github.com/timcharper/textile.vim.git
+YAML: git://github.com/avakhov/vim-yaml.git
