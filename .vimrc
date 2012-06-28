@@ -18,5 +18,8 @@ retab
 set splitbelow
 set splitright
 
+map <F1> <Esc>
+imap <F1> <Esc>
+
 " NERDTree stuff
 let NERDTreeShowHidden=1
