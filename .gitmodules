@@ -1,0 +1,33 @@
+[submodule "bundle/VimBookmarking"]
+	path = bundle/VimBookmarking
+	url = git://github.com/dterei/VimBookmarking.git
+[submodule "bundle/vim-cucumber"]
+	path = bundle/vim-cucumber
+	url = git://github.com/tpope/vim-cucumber.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-git"]
+	path = bundle/vim-git
+	url = git://github.com/tpope/vim-git.git
+[submodule "vim-markdown"]
+	path = vim-markdown
+	url = git://github.com/tpope/vim-markdown.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = git://github.com/tpope/vim-markdown.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule "bundle/vim-rails"]
+	path = bundle/vim-rails
+	url = git://github.com/tpope/vim-rails.git
+[submodule "bundle/vim-ruby"]
+	path = bundle/vim-ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "bundle/textile.vim"]
+	path = bundle/textile.vim
+	url = git://github.com/timcharper/textile.vim.git
+[submodule "bundle/vim-yaml"]
+	path = bundle/vim-yaml
+	url = git://github.com/avakhov/vim-yaml.git
