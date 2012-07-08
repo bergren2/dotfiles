@@ -23,3 +23,4 @@ imap <F1> <Esc>
 
 " NERDTree stuff
 let NERDTreeShowHidden=1
+au VimEnter *  NERDTree
