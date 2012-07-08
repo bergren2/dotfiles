@@ -1,20 +1,6 @@
 ohai .vim
 
-Pathogen: https://github.com/tpope/vim-pathogen
+Clone this bad boy to ~/.vim and then run 'ruby ~/.vim/install.rb' to install everything (assuming Vim is up and running).
 
-Colorscheme:
-SunburstVIM: git://github.com/tangphillip/SunburstVIM.git
-
-Other VIM Things I've used:
-Bookmarking: git://github.com/dterei/VimBookmarking.git
-Cucumber: git://github.com/tpope/vim-cucumber.git
-Fugitive: git://github.com/tpope/vim-fugitive.git
-Git: git://github.com/tpope/vim-git.git
-Indent-Guide: git://github.com/nathanaelkane/vim-indent-guides.git
-Markdown: git://github.com/tpope/vim-markdown.git
-NERD Commenter: git://github.com/scrooloose/nerdcommenter.git
-NERD tree: git://github.com/scrooloose/nerdtree.git
-Rails: git://github.com/tpope/vim-rails.git
-Ruby: git://github.com/vim-ruby/vim-ruby.git
-Textile: git://github.com/timcharper/textile.vim.git
-YAML: git://github.com/avakhov/vim-yaml.git
+A big thanks to Zach Belzer, since I basically stole this from him. :)
+https://github.com/zbelzer/dotvim
