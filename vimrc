@@ -3,8 +3,10 @@ call pathogen#helptags()
 
 " colorscheme sunburst
 
+set nocompatible
 syntax on
 filetype plugin indent on
+
 set background=dark
 set number 
 set cindent
@@ -31,3 +33,4 @@ function! StartUp()
 endfunction
 
 autocmd VimEnter * call StartUp()
+autocmd FileType ruby compiler ruby
