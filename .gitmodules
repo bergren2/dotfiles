@@ -31,3 +31,6 @@
 [submodule "bundle/vim-yaml"]
 	path = bundle/vim-yaml
 	url = git://github.com/avakhov/vim-yaml.git
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = git://git.wincent.com/command-t.git
