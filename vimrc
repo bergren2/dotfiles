@@ -23,4 +23,11 @@ imap <F1> <Esc>
 
 " NERDTree stuff
 let NERDTreeShowHidden=1
-au VimEnter *  NERDTree
+
+function! StartUp()
+  if 0 == argc()
+    NERDTree
+  end
+endfunction
+
+autocmd VimEnter * call StartUp()
