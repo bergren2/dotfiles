@@ -2,7 +2,7 @@ ohai .vim
 
 Clone this bad boy to ~/.vim
 Update those submodules with 'git submodule update --init'
-Run 'ruby ~/.vim/install.rb' to install everything (assuming Vim is up and running), including Command-T
+Run 'ruby ~/.vim/install.rb' to install everything (assuming Vim is up and running), including Command-T (make sure to install using system Ruby)
 
 A big thanks to Zach Belzer, since I basically stole this from him. :)
 https://github.com/zbelzer/dotvim
