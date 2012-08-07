@@ -1,6 +1,11 @@
 call pathogen#infect()
 call pathogen#helptags()
 
+" Mappings and stuff
+let mapleader = ","
+
+nnoremap <leader>a :Ack
+
 " colorscheme sunburst
 
 set nocompatible
