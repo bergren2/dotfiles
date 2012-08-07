@@ -2,8 +2,9 @@ call pathogen#infect()
 call pathogen#helptags()
 
 " Mappings and stuff
-let mapleader = ","
+let mapleader = ";"
 
+noremap ;; ;
 nnoremap <leader>a :Ack
 
 " colorscheme sunburst
