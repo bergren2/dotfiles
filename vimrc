@@ -5,7 +5,7 @@ call pathogen#helptags()
 let mapleader = ";"
 
 noremap ;; ;
-nnoremap <leader>a :Ack
+nnoremap <leader>a :Ack 
 
 " colorscheme sunburst
 
