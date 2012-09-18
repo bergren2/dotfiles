@@ -5,6 +5,7 @@ set guicursor+=a:blinkon0
 
 hi Normal guibg=Black
 hi nontext guibg=Black
+hi Cursor guifg=#0000AA guibg=#FF6600
 
 " highlights lines that are bookmarked with Bookmarking
 hi default Bookmarking guifg=#FFFFFF guibg=#FF6600 gui=bold
