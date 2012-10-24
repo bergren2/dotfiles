@@ -3,7 +3,7 @@ set guifont=Monaco:h12
 set antialias
 set guicursor+=a:blinkon0
 
-colorscheme vividchalk
+colorscheme codeschool
 
 hi Normal guibg=Black
 hi nontext guibg=Black
