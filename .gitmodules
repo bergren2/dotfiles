@@ -25,9 +25,6 @@
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
 	url = git://github.com/vim-ruby/vim-ruby.git
-[submodule "bundle/textile.vim"]
-	path = bundle/textile.vim
-	url = git@github.com:bergren2/textile.vim.git
 [submodule "bundle/vim-yaml"]
 	path = bundle/vim-yaml
 	url = git://github.com/avakhov/vim-yaml.git
