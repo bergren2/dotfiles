@@ -43,6 +43,3 @@
 [submodule "bundle/php.vim"]
 	path = bundle/php.vim
 	url = git://github.com/vim-scripts/php.vim--Hodge.git
-[submodule "bundle/textile.vim"]
-	path = bundle/textile.vim
-	url = git://github.com/bergren2/textile.vim.git
