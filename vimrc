@@ -21,6 +21,7 @@ set tabstop=2
 set scrolloff=3
 set nowrap
 set cursorline
+set laststatus=2
 
 set autoindent
 set expandtab
