@@ -19,6 +19,7 @@ set cindent
 set shiftwidth=2
 set tabstop=2
 set scrolloff=3
+set nowrap
 
 set autoindent
 set expandtab
