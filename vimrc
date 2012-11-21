@@ -7,7 +7,7 @@ let mapleader = ";"
 noremap ;; ;
 nnoremap <leader>a :Ack 
 
-" colorscheme sunburst
+colorscheme vividchalk " will be overwritten by .gvimrc theme
 
 set nocompatible
 syntax on
