@@ -24,8 +24,7 @@ set cursorline
 set laststatus=2
 
 set autoindent
-set expandtab
-retab
+set expandtab " use spaces for fun and profit
 set splitbelow
 set splitright
 
