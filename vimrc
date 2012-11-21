@@ -20,6 +20,7 @@ set shiftwidth=2
 set tabstop=2
 set scrolloff=3
 set nowrap
+set cursorline
 
 set autoindent
 set expandtab

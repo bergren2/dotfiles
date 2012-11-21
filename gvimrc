@@ -7,10 +7,10 @@ colorscheme codeschool
 
 hi Normal guibg=Black
 hi nontext guibg=Black
-hi Cursor guifg=#0000AA guibg=#FF6600
+hi Cursor guifg=#000000 guibg=#FF6600
 
 " highlights lines that are bookmarked with Bookmarking
-hi default Bookmarking guifg=#FFFFFF guibg=#FF6600 gui=bold
+hi default Bookmarking guibg=#131313 gui=bold
 hi SignColumn guibg=#000000
 sign define bookmark linehl=Bookmarking
 
