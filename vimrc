@@ -42,6 +42,3 @@ endfunction
 
 autocmd VimEnter * call StartUp()
 autocmd FileType ruby compiler ruby
-
-" Textile.vim
-let g:TextileBrowser="Google Chrome"
