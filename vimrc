@@ -18,7 +18,7 @@ set number
 set cindent
 set shiftwidth=2
 set tabstop=2
-set scrolloff=3
+set scrolloff=0
 set nowrap
 set cursorline
 set laststatus=2
