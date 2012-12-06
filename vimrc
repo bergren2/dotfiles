@@ -32,7 +32,7 @@ map <F1> <Esc>
 imap <F1> <Esc>
 
 " NERDTree stuff
-let NERDTreeShowHidden=1
+let NERDTreeShowHidden=0 " disable -- I think I have the hang of this keybind now
 
 function! StartUp()
   if 0 == argc()
