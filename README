@@ -1,8 +1,18 @@
 ohai .vim
 
-Clone this bad boy into ~/.vim
-Update those submodules with 'git submodule update --init'
-Run 'ruby ~/.vim/install.rb' to install everything (assuming Vim is up and running), including Command-T (make sure to use system Ruby!)
+1_ install macvim if you're on, um, a mac (needed to get vim with +ruby)
+$ brew install macvim --override-system-vim
 
-A big thanks to Zach Belzer, since I basically stole this from him. :)
+2_ clone this bad boy into ~/.vim
+$ git clone git@github.com:bergren2/dotvim.git ~/.vim
+
+3_ update those submodules
+$ git submodule update --init
+
+4_ install stuff -- .vimrc, .gvimrc, .ackrc, and command-t (make sure to use system ruby!)
+$ ruby ~/.vim/install.rb
+
+thank yous go to zach belzer, since i basically stole this from him when he wasn't looking. (:
 https://github.com/zbelzer/dotvim
+
+one day i'll vim stuff on linux and i'll update this then
