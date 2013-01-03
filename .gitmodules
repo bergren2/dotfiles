@@ -43,3 +43,6 @@
 [submodule "bundle/php.vim"]
 	path = bundle/php.vim
 	url = git://github.com/vim-scripts/php.vim--Hodge.git
+[submodule "bundle/scss-syntax.vim"]
+	path = bundle/scss-syntax.vim
+	url = git://github.com/cakebaker/scss-syntax.vim.git
