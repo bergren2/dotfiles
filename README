@@ -16,3 +16,10 @@ thank yous go to zach belzer, since i basically stole this from him when he wasn
 https://github.com/zbelzer/dotvim
 
 one day i'll vim stuff on linux and i'll update this then
+
+ec_ (extra credit)
+
+since these bundles get out of date, run the following from .vim/ to use the latest packages
+$ git submodule foreach git pull origin master
+$ git add bundle/
+$ git ci -m 'woohoo can haz updated bundles!'
