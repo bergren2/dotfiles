@@ -6,6 +6,7 @@ let mapleader = ";"
 
 noremap ;; ;
 nnoremap <leader>a :Ack 
+nnoremap <leader>T :CommandTFlush
 
 colorscheme vividchalk " will be overwritten by .gvimrc theme
 
