@@ -41,3 +41,6 @@ au InsertLeave * hi statusLineNC guifg=#00AA00
 hi StatusLine guibg=#00AA00 guifg=#FFFFFF
 hi StatusLineNC guibg=#FFFFFF guifg=#00AA00
 hi VertSplit guibg=#FFFFFF guifg=#FFFFFF
+
+" Textile.vim
+let g:TextileBrowser="Google Chrome"
