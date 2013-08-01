@@ -24,4 +24,4 @@ $ git submodule foreach git pull origin master
 $ git add bundle/
 $ git ci -m 'woohoo can haz updated bundles!'
 
-and remember... stay out of trouble! (╯°□°）╯︵ɯıʌ
+and remember... stay out of trouble! (╯°□°)╯︵ɯıʌ
