@@ -64,3 +64,6 @@
 [submodule "bundle/textile.vim"]
 	path = bundle/textile.vim
 	url = git://github.com/timcharper/textile.vim.git
+[submodule "bundle/JavaScript-Indent"]
+	path = bundle/JavaScript-Indent
+	url = git@github.com:bergren2/JavaScript-Indent.git
