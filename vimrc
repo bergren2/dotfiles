@@ -7,6 +7,8 @@ let mapleader = ";"
 noremap ;; ;
 nnoremap <leader>a :Ack 
 nnoremap <leader>T :CommandTFlush
+cnoreabbrev NT NERDTree
+cnoreabbrev NTM NERDTreeMirror
 
 colorscheme vividchalk " will be overwritten by .gvimrc theme
 
