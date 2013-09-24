@@ -26,6 +26,9 @@ set nowrap
 set cursorline
 set laststatus=2
 
+set list
+set listchars=tab:▸\ ,eol:¬
+
 set autoindent
 set expandtab " use spaces for fun and profit
 set splitbelow
