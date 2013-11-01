@@ -1,5 +1,7 @@
 --type-add
-html=.haml
+html=.haml,.erb
 --type-add
 css=.sass,.scss
+--type-add
+js=.erb
 --ignore-dir=out
