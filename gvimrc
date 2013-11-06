@@ -15,18 +15,18 @@ hi SignColumn guibg=#000000
 sign define bookmark linehl=Bookmarking
 
 " NERDTree and such
-hi NERDTreeDir guifg=#00AA00
-hi NERDTreeDirSlash guifg=#00AA00
+hi NERDTreeDir guifg=#009900
+hi NERDTreeDirSlash guifg=#006600
 
 
 " Changes the status bar color based on mode
 function! InsertStatuslineColor(mode)
   if a:mode == 'i'
-    hi StatusLine guibg=#AA0000
-    hi StatusLineNC guifg=#AA0000
+    hi StatusLine guibg=#990000
+    hi StatusLineNC guifg=#990000
   elseif a:mode == 'r'
-    hi StatusLine guibg=#0000AA
-    hi statusLineNC guifg=#0000AA
+    hi StatusLine guibg=#000099
+    hi statusLineNC guifg=#000099
   else
     hi StatusLine guibg=#CCAA00
     hi StatusLineNC guifg=#CCAA00
@@ -34,13 +34,13 @@ function! InsertStatuslineColor(mode)
 endfunction
 
 au InsertEnter * call InsertStatuslineColor(v:insertmode)
-au InsertLeave * hi StatusLine guibg=#00AA00
-au InsertLeave * hi statusLineNC guifg=#00AA00
+au InsertLeave * hi StatusLine guibg=#006600
+au InsertLeave * hi statusLineNC guifg=#006600
 
 " Default the statusline to green when entering Vim
-hi StatusLine guibg=#00AA00 guifg=#FFFFFF
-hi StatusLineNC guibg=#FFFFFF guifg=#00AA00
-hi VertSplit guibg=#FFFFFF guifg=#FFFFFF
+hi StatusLine guibg=#006600 guifg=#CCCCCC
+hi StatusLineNC guibg=#CCCCCC guifg=#006600
+hi VertSplit guibg=#CCCCCC guifg=#CCCCCC
 
 " Textile.vim
 let g:TextileBrowser="Google Chrome"
