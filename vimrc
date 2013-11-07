@@ -42,7 +42,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 let mapleader = ";"
 
 noremap ;; ;
-nnoremap <leader>a :Ack
+nnoremap <leader>a :Ack 
 " using the old Command-T keybinds
 nnoremap <leader>t :CtrlP<cr>
 cnoreabbrev NT NERDTree
