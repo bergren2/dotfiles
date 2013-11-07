@@ -31,17 +31,20 @@ Bundle 'tpope/vim-rails'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-surround'
 Bundle 'avakhov/vim-yaml'
+Bundle 'kien/ctrlp.vim'
 
 " vim-scripts repos
 Bundle 'php.vim--Hodge'
 
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+" using the old Command-T keybinds
+nnoremap <leader>t :CtrlP<cr>
 
 " Mappings and stuff
 let mapleader = ";"
 
 noremap ;; ;
-nnoremap <leader>a :Ack 
-nnoremap <leader>T :CommandTFlush
+nnoremap <leader>a :Ack
 cnoreabbrev NT NERDTree
 cnoreabbrev NTM NERDTreeMirror
 cnoreabbrev QA qa
