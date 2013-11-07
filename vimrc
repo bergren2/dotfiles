@@ -1,5 +1,40 @@
-call pathogen#infect()
-call pathogen#helptags()
+set nocompatible              " be iMproved
+filetype off                  " required!
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+" My bundles here:
+"
+" GitHub repos
+Bundle 'bergren2/JavaScript-Indent'
+Bundle 'dterei/VimBookmarking'
+Bundle 'mileszs/ack.vim'
+Bundle 'othree/html5.vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'cakebaker/scss-syntax.vim'
+Bundle 'scrooloose/syntastic'
+Bundle 'timcharper/textile.vim'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'tpope/vim-cucumber'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-git'
+Bundle 'tpope/vim-haml'
+Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'tpope/vim-markdown'
+Bundle 'tpope/vim-rails'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'tpope/vim-surround'
+Bundle 'avakhov/vim-yaml'
+
+" vim-scripts repos
+Bundle 'php.vim--Hodge'
+
 
 " Mappings and stuff
 let mapleader = ";"
@@ -14,7 +49,6 @@ cnoreabbrev qa tabclose
 
 colorscheme vividchalk " will be overwritten by .gvimrc theme
 
-set nocompatible
 syntax on
 filetype plugin indent on
 
