@@ -37,14 +37,14 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'php.vim--Hodge'
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-" using the old Command-T keybinds
-nnoremap <leader>t :CtrlP<cr>
 
 " Mappings and stuff
 let mapleader = ";"
 
 noremap ;; ;
 nnoremap <leader>a :Ack
+" using the old Command-T keybinds
+nnoremap <leader>t :CtrlP<cr>
 cnoreabbrev NT NERDTree
 cnoreabbrev NTM NERDTreeMirror
 cnoreabbrev QA qa
