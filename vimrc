@@ -47,8 +47,6 @@ nnoremap <leader>a :Ack
 nnoremap <leader>t :CtrlP<cr>
 cnoreabbrev NT NERDTree
 cnoreabbrev NTM NERDTreeMirror
-cnoreabbrev QA qa
-cnoreabbrev qa tabclose
 
 colorscheme vividchalk " will be overwritten by .gvimrc theme
 
