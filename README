@@ -6,18 +6,13 @@ $ brew install macvim --override-system-vim
 2_ clone this bad boy into ~/.vim
 $ git clone https://github.com/bergren2/dotvim.git ~/.vim
 
-3_ install vundle
-$ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-
-4_ install stuff -- .vimrc, .gvimrc, .ackrc
+3_ install stuff -- .vimrc, .gvimrc, .ackrc
 $ ruby ~/.vim/install.rb
+
+4_ install vundle
+$ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
 5_ bundle install! lolol
 $ vim +BundleInstall +qall
 
 one day i'll vim stuff on linux and i'll update this then
-
-ec_ (extra credit!!!) (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧*:･ﾟ✧
-
-
-and remember... stay out of trouble! (╯°□°)╯︵ɯıʌ

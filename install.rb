@@ -26,12 +26,4 @@ link_with_check(gvimpath, File.expand_path('~/.gvimrc'))
 ackpath = File.expand_path('ackrc', here)
 link_with_check(ackpath, File.expand_path('~/.ackrc'))
 
-`git submodule update --init`
-
-puts "Compiling Command-T"
-Dir.chdir("#{here}/bundle/command-t/ruby/command-t") do
-  `ruby extconf.rb`
-  `rake make`
-end
-
 puts "done."
