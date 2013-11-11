@@ -15,4 +15,8 @@ $ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 5_ bundle install! lolol
 $ vim +BundleInstall +qall
 
+6_ YOU COMPLETE ME
+$ cd ~/.vim/bundle/YouCompleteMe
+$ ./install.sh --clang-completer
+
 one day i'll vim stuff on linux and i'll update this then

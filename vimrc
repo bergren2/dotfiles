@@ -32,6 +32,7 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-surround'
 Bundle 'avakhov/vim-yaml'
 Bundle 'kien/ctrlp.vim'
+Bundle 'Valloric/YouCompleteMe'
 
 " vim-scripts repos
 Bundle 'php.vim--Hodge'
