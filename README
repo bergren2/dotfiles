@@ -3,6 +3,9 @@ ohai .vim
 1_ install macvim if you're on, um, a mac (needed to get vim with +ruby)
 $ brew install macvim --override-system-vim
 
+1_a_ also install cmake for YouCompleteMe
+$ brew install cmake
+
 2_ clone this bad boy into ~/.vim
 $ git clone https://github.com/bergren2/dotvim.git ~/.vim
 
