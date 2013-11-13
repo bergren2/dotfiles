@@ -12,7 +12,6 @@ Bundle 'gmarik/vundle'
 "
 " GitHub repos
 Bundle 'bergren2/JavaScript-Indent'
-Bundle 'dterei/VimBookmarking'
 Bundle 'mileszs/ack.vim'
 Bundle 'othree/html5.vim'
 Bundle 'scrooloose/nerdtree'
