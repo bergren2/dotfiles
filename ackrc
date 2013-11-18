@@ -5,3 +5,4 @@ css=.sass,.scss
 --type-add
 js=.erb
 --ignore-dir=out
+--ignore-dir=tmp
