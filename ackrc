@@ -6,3 +6,4 @@ css=.sass,.scss
 js=.erb
 --ignore-dir=out
 --ignore-dir=tmp
+--ignore-dir=log
