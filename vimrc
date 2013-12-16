@@ -44,7 +44,6 @@ let mapleader = ";"
 noremap ;; ;
 nnoremap <leader>a :Ack 
 " using the old Command-T keybinds
-nnoremap <leader>t :CtrlP<cr>
 cnoreabbrev NT NERDTree
 cnoreabbrev NTM NERDTreeMirror
 cnoreabbrev qa tabclose
