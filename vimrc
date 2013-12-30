@@ -43,7 +43,7 @@ let mapleader = ";"
 
 noremap ;; ;
 nnoremap <leader>a :Ack 
-" using the old Command-T keybinds
+let g:ctrlp_root_markers = ['.ctrlp']
 cnoreabbrev NT NERDTree
 cnoreabbrev NTM NERDTreeMirror
 cnoreabbrev qa tabclose
