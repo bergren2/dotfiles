@@ -44,6 +44,7 @@ let mapleader = ";"
 noremap ;; ;
 nnoremap <leader>a :Ack 
 let g:ctrlp_root_markers = ['.ctrlp']
+nnoremap <leader>p :CtrlPClearCache<cr>
 cnoreabbrev NT NERDTree
 cnoreabbrev NTM NERDTreeMirror
 cnoreabbrev qa tabclose
