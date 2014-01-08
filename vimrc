@@ -31,6 +31,8 @@ Bundle 'tpope/vim-surround'
 Bundle 'avakhov/vim-yaml'
 Bundle 'kien/ctrlp.vim'
 Bundle 'Valloric/YouCompleteMe'
+Bundle 'guns/vim-clojure-static'
+Bundle 'tpope/vim-fireplace'
 
 " vim-scripts repos
 Bundle 'php.vim--Hodge'
