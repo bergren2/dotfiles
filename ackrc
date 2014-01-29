@@ -1,9 +1,9 @@
---type-add
-html=.haml,.erb
---type-add
-css=.sass,.scss
---type-add
-js=.erb
+--type-add=html:ext:haml
+--type-add=html:match:/.+html\..+/
+--type-add=css:ext:sass,scss
+--type-add=js:ext:coffee
+--type-add=js:match:/.+js\..+/
+
 --ignore-dir=out
 --ignore-dir=tmp
 --ignore-dir=log
