@@ -55,6 +55,13 @@ colorscheme vividchalk " will be overwritten by .gvimrc theme
 syntax on
 filetype plugin indent on
 
+let g:ycm_filetype_blacklist = {
+  \ 'gitcommit' : 1,
+  \ 'markdown' : 1,
+  \ 'text' : 1,
+  \ 'yaml' : 1
+  \}
+
 set background=dark
 set number 
 set cindent
