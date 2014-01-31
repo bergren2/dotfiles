@@ -62,6 +62,9 @@ let g:ycm_filetype_blacklist = {
   \ 'yaml' : 1
   \}
 
+let g:syntastic_mode_map = {
+  \ 'passive_filetypes': ['css', 'scss'] }
+
 set background=dark
 set number 
 set cindent
