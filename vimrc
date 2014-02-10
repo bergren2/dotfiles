@@ -55,6 +55,8 @@ colorscheme vividchalk " will be overwritten by .gvimrc theme
 syntax on
 filetype plugin indent on
 
+let g:ctrlp_custom_ignore = '\/tmp\/'
+
 let g:ycm_filetype_blacklist = {
   \ 'gitcommit' : 1,
   \ 'markdown' : 1,
