@@ -33,9 +33,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'guns/vim-clojure-static'
 Bundle 'tpope/vim-fireplace'
-
-" vim-scripts repos
-Bundle 'php.vim--Hodge'
+Bundle 'StanAngeloff/php.vim'
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
