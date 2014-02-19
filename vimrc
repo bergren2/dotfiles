@@ -1,6 +1,8 @@
 set nocompatible              " be iMproved
 filetype off                  " required!
 
+au FileType crontab set nobackup nowritebackup
+
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
