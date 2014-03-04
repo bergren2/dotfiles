@@ -7,7 +7,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle
-" required! 
+" required!
 Bundle 'gmarik/vundle'
 
 " My bundles here:
@@ -43,10 +43,11 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 let mapleader = ";"
 
 noremap ;; ;
-nnoremap <leader>a :Ack 
+nnoremap <leader>a :Ack<space>
 let g:ctrlp_root_markers = ['.ctrlp']
 nnoremap <leader>p :CtrlPClearCache<cr>
 nnoremap <leader>y :YcmRestartServer<cr>
+nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 cnoreabbrev NT NERDTree
 cnoreabbrev NTM NERDTreeMirror
 cnoreabbrev qa tabclose
@@ -69,7 +70,7 @@ let g:syntastic_mode_map = {
   \ 'passive_filetypes': ['css', 'scss'] }
 
 set background=dark
-set number 
+set number
 set cindent
 set shiftwidth=2
 set tabstop=2
