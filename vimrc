@@ -57,6 +57,9 @@ colorscheme vividchalk " will be overwritten by .gvimrc theme
 syntax on
 filetype plugin indent on
 
+" make 80 characters easier to see
+let &colorcolumn=join(range(81,999),",")
+
 let g:ctrlp_custom_ignore = '\/tmp\/'
 
 let g:ycm_filetype_blacklist = {
