@@ -3,7 +3,7 @@ set guifont=Monaco:h12
 set antialias
 set guicursor+=a:blinkon0
 
-colorscheme codeschool
+colorscheme solarized
 
 hi Normal guibg=Black
 hi nontext guibg=Black
@@ -12,7 +12,6 @@ hi Cursor guifg=#000000 guibg=#FF6600
 " NERDTree and such
 hi NERDTreeDir guifg=#009900
 hi NERDTreeDirSlash guifg=#006600
-
 
 " Changes the status bar color based on mode
 function! InsertStatuslineColor(mode)

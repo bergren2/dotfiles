@@ -36,6 +36,7 @@ Bundle 'Valloric/YouCompleteMe'
 Bundle 'guns/vim-clojure-static'
 Bundle 'tpope/vim-fireplace'
 Bundle 'StanAngeloff/php.vim'
+Bundle 'altercation/vim-colors-solarized'
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
@@ -52,7 +53,7 @@ cnoreabbrev NT NERDTree
 cnoreabbrev NTM NERDTreeMirror
 cnoreabbrev qa tabclose
 
-colorscheme vividchalk " will be overwritten by .gvimrc theme
+colorscheme vividchalk
 
 syntax on
 filetype plugin indent on
