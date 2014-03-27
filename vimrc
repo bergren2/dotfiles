@@ -59,7 +59,7 @@ syntax on
 filetype plugin indent on
 
 " make 80 and 120 character limits easier to see
-let &colorcolumn="80,".join(range(120,999),",")
+let &colorcolumn="81,".join(range(121,999),",")
 
 let g:ctrlp_custom_ignore = '\/tmp\/'
 
