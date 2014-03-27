@@ -57,8 +57,8 @@ colorscheme vividchalk " will be overwritten by .gvimrc theme
 syntax on
 filetype plugin indent on
 
-" make 80 characters easier to see
-let &colorcolumn=join(range(81,999),",")
+" make 80 and 120 character limits easier to see
+let &colorcolumn="80,".join(range(120,999),",")
 
 let g:ctrlp_custom_ignore = '\/tmp\/'
 
