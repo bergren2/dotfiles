@@ -13,6 +13,14 @@ hi Cursor guifg=#000000 guibg=#FF6600
 hi NERDTreeDir guifg=#009900
 hi NERDTreeDirSlash guifg=#006600
 
+function! StartUp()
+  if 0 == argc()
+    NERDTree
+  end
+endfunction
+
+autocmd VimEnter * call StartUp()
+
 " Changes the status bar color based on mode
 function! InsertStatuslineColor(mode)
   if a:mode == 'i'

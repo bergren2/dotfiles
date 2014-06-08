@@ -102,11 +102,4 @@ imap <F1> <Esc>
 " NERDTree stuff
 let NERDTreeShowHidden=0 " disable -- I think I have the hang of this keybind now
 
-function! StartUp()
-  if 0 == argc()
-    NERDTree
-  end
-endfunction
-
-autocmd VimEnter * call StartUp()
 autocmd FileType ruby compiler ruby
