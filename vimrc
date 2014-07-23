@@ -10,33 +10,31 @@ call vundle#rc()
 " required!
 Bundle 'gmarik/vundle'
 
-" My bundles here:
-"
 " GitHub repos
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'avakhov/vim-yaml'
 Bundle 'bergren2/JavaScript-Indent'
+Bundle 'guns/vim-clojure-static'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'kien/ctrlp.vim'
 Bundle 'mileszs/ack.vim'
+Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'othree/html5.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
+Bundle 'StanAngeloff/php.vim'
 Bundle 'timcharper/textile.vim'
-Bundle 'kchmck/vim-coffee-script'
 Bundle 'tpope/vim-cucumber'
 Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-fireplace'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-git'
 Bundle 'tpope/vim-haml'
-Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-rails'
-Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-surround'
-Bundle 'avakhov/vim-yaml'
-Bundle 'kien/ctrlp.vim'
 Bundle 'Valloric/YouCompleteMe'
-Bundle 'guns/vim-clojure-static'
-Bundle 'tpope/vim-fireplace'
-Bundle 'StanAngeloff/php.vim'
-Bundle 'altercation/vim-colors-solarized'
+Bundle 'vim-ruby/vim-ruby'
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
