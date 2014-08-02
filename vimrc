@@ -100,4 +100,5 @@ imap <F1> <Esc>
 " NERDTree stuff
 let NERDTreeShowHidden=0 " disable -- I think I have the hang of this keybind now
 
-autocmd FileType ruby compiler ruby
+au FileType ruby compiler ruby
+au FileType xml exe ":silent %!xmllint --format --recover - 2>/dev/null"
