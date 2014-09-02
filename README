@@ -13,10 +13,10 @@ $ git clone https://github.com/bergren2/dotvim.git ~/.vim
 $ ruby ~/.vim/install.rb
 
 4_ install vundle
-$ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+$ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/Vundle.vim
 
 5_ bundle install! lolol
-$ vim +BundleInstall +qall
+$ vim +PluginInstall +qall
 
 6_ YOU COMPLETE ME
 $ cd ~/.vim/bundle/YouCompleteMe
