@@ -21,7 +21,7 @@ Also necessary for YouCompleteMe:
 
 Then the easy part:
 
-    $ git clone https://github.com/bergren2/dotvim.git ~/.vim
+    $ git clone git@github.com:bergren2/dotvim.git ~/.vim
     $ cd $_
     $ ruby install.rb
     $ git clone https://github.com/gmarik/vundle.git bundle/Vundle.vim
