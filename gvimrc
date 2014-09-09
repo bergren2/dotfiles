@@ -1,13 +1,12 @@
 set guioptions-=T
-set guifont=Monaco:h12
+set guifont=Cousine:h12
 set antialias
 set guicursor+=a:blinkon0
 
-colorscheme solarized
+colo solarized
 
 hi Normal guibg=Black
 hi nontext guibg=Black
-hi Cursor guifg=#000000 guibg=#FF6600
 
 " NERDTree and such
 hi NERDTreeDir guifg=#009900

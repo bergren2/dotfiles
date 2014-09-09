@@ -20,6 +20,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'othree/html5.vim'
+Plugin 'reedes/vim-pencil'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'StanAngeloff/php.vim'
@@ -54,7 +55,7 @@ cnoreabbrev NT NERDTree
 cnoreabbrev NTM NERDTreeMirror
 cnoreabbrev qa tabclose
 
-colorscheme vividchalk
+colo vividchalk
 
 syntax on
 
@@ -78,7 +79,7 @@ let g:syntastic_filetype_map = {
   \ 'html.handlebars': 'handlebars'
   \}
 
-set background=dark
+set bg=dark
 set number
 set cindent
 set shiftwidth=2
@@ -104,3 +105,13 @@ let NERDTreeShowHidden=0 " disable -- I think I have the hang of this keybind no
 
 au FileType ruby compiler ruby
 au FileType xml exe ":silent %!xmllint --format --recover - 2>/dev/null"
+
+" Pencil
+let g:pencil#wrapModeDefault = 'hard'
+
+augroup pencil
+  autocmd!
+  autocmd FileType markdown call pencil#init()
+  autocmd FileType textile call pencil#init()
+  autocmd FileType text call pencil#init({'wrap': 'hard'})
+augroup END
