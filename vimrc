@@ -57,7 +57,7 @@ cnoreabbrev NT NERDTree
 cnoreabbrev NTM NERDTreeMirror
 cnoreabbrev qa tabclose
 
-colo solarized
+colo vividchalk " so Vim doesn't crap itself while trying to first use Vundle
 
 syntax on
 
