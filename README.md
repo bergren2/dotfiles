@@ -14,9 +14,11 @@ At this point I check to make sure I have `+python` enabled so YouCompleteMe wor
 This is easy to do via `vim --version`.
 
 Also necessary for YouCompleteMe:
+
     $ brew install cmake
 
 Then the easy part:
+
     $ git clone https://github.com/bergren2/dotvim.git ~/.vim
     $ cd $_
     $ ruby install.rb
@@ -24,5 +26,6 @@ Then the easy part:
     $ vim +PluginInstall +qall
 
 And finally, the rest of YouCompleteMe:
+
     $ cd bundle/YouCompleteMe
     $ ./install.sh --clang-completer
