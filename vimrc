@@ -10,6 +10,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " GitHub repos
+Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'avakhov/vim-yaml'
 Plugin 'bergren2/JavaScript-Indent'
@@ -56,7 +57,7 @@ cnoreabbrev NT NERDTree
 cnoreabbrev NTM NERDTreeMirror
 cnoreabbrev qa tabclose
 
-colo vividchalk
+colo solarized
 
 syntax on
 
@@ -116,3 +117,5 @@ augroup pencil
   autocmd FileType textile call pencil#init()
   autocmd FileType text call pencil#init({'wrap': 'hard'})
 augroup END
+
+hi clear SignColumn

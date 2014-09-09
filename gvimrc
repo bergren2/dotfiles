@@ -3,8 +3,6 @@ set guifont=Cousine:h12
 set antialias
 set guicursor+=a:blinkon0
 
-colo solarized
-
 hi Normal guibg=Black
 hi nontext guibg=Black
 
