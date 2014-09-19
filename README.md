@@ -6,10 +6,6 @@ My Vim files. Please mind the dust.
 
 This is mainly a Mac install. I haven't tested it on any flavors of Linux.
 
-First, install
-[Cousine](http://www.google.com/fonts#UsePlace:use/Collection:Cousine). It's
-a font.
-
     $ brew install macvim --override-system-vim
 
 At this point I check to make sure I have `+python` enabled so YouCompleteMe works.
