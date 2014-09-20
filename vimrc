@@ -53,7 +53,8 @@ nnoremap <leader>a :Ack<space>
 let g:ctrlp_root_markers = ['.ctrlp']
 nnoremap <leader>p :CtrlPClearCache<cr>
 nnoremap <leader>y :YcmRestartServer<cr>
-nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
+nnoremap <silent> <f5> :let _s=@/<bar>:%s/\s\+$//e<bar>:let @/=_s<bar>:nohl<cr>
+nnoremap <silent> <leader>ch :exec 'silent !open -a "Google Chrome" % &'<cr>
 cnoreabbrev NT NERDTree
 cnoreabbrev NTM NERDTreeMirror
 cnoreabbrev qa tabclose
