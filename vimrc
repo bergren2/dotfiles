@@ -114,7 +114,6 @@ au FileType xml exe ":silent %!xmllint --format --recover - 2>/dev/null"
 
 " Pencil
 let g:pencil#wrapModeDefault = 'hard'
-let g:pencil#mode_indicators = {'hard': '✐ hard', 'soft': '✎ soft', 'off': '✎ off',}
 let g:airline_section_x = '%{PencilMode()}'
 
 let g:pencil#autoformat_blacklist = [
