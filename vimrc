@@ -70,19 +70,20 @@ let &colorcolumn="81,".join(range(121,999),",")
 let g:ctrlp_custom_ignore = '\/tmp\/'
 
 let g:ycm_filetype_blacklist = {
-  \ 'gitcommit' : 1,
-  \ 'markdown' : 1,
-  \ 'text' : 1,
-  \ 'yaml' : 1
-  \}
+      \ 'gitcommit' : 1,
+      \ 'liquid' : 1,
+      \ 'markdown' : 1,
+      \ 'text' : 1,
+      \ 'yaml' : 1
+      \ }
 
 let g:syntastic_mode_map = {
-  \ 'passive_filetypes': ['css', 'scss']
-  \}
+      \ 'passive_filetypes': ['css', 'scss']
+      \ }
 
 let g:syntastic_filetype_map = {
-  \ 'html.handlebars': 'handlebars'
-  \}
+      \ 'html.handlebars': 'handlebars'
+      \ }
 
 set bg=dark
 set number
