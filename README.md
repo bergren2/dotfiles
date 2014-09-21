@@ -4,7 +4,11 @@ My Vim files. Please mind the dust.
 
 ## Installation
 
-This is mainly a Mac install. I haven't tested it on any flavors of Linux.
+First, install [Source Code Pro for
+Powerline](https://github.com/Lokaltog/powerline-fonts/tree/master/SourceCodePro).
+It's a patched version of Adobe's Source Code Pro font to work with Airline.
+
+Next,
 
     $ brew install macvim --override-system-vim
 

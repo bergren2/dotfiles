@@ -112,12 +112,18 @@ au FileType xml exe ":silent %!xmllint --format --recover - 2>/dev/null"
 
 " Pencil
 let g:pencil#wrapModeDefault = 'hard'
+let g:pencil#mode_indicators = {'hard': '✐ hard', 'soft': '✎ soft', 'off': '✎ off',}
+let g:airline_section_x = '%{PencilMode()}'
+
+let g:pencil#autoformat_blacklist = [
+      \ 'liquidYamlHead'
+      \ ]
 
 augroup pencil
   autocmd!
-  autocmd FileType markdown call pencil#init()
-  autocmd FileType textile call pencil#init()
-  autocmd FileType text call pencil#init({'wrap': 'hard'})
+  autocmd FileType text,markdown,textile,liquid call pencil#init()
 augroup END
 
 hi clear SignColumn
+
+let g:airline_powerline_fonts = 1
