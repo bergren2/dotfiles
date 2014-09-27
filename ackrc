@@ -4,7 +4,9 @@
 --type-add=js:ext:coffee
 --type-add=js:match:/.+js\..+/
 
---ignore-dir=out
---ignore-dir=tmp
+--ignore-dir=bower_components
+--ignore-dir=dist
 --ignore-dir=log
+--ignore-dir=tmp
+--ignore-dir=out
 --ignore-dir=.sass-cache
