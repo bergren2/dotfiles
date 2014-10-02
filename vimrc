@@ -24,6 +24,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'othree/html5.vim'
+Plugin 'reedes/vim-lexical'
 Plugin 'reedes/vim-pencil'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
@@ -125,6 +126,13 @@ let g:pencil#autoformat_blacklist = [
 augroup pencil
   autocmd!
   autocmd FileType text,markdown,textile,liquid call pencil#init()
+augroup END
+
+" Vim Lexical
+augroup lexical
+  autocmd!
+  autocmd FileType markdown,textile,liquid call lexical#init()
+  autocmd FileType text call lexical#init({ 'spell': 0 })
 augroup END
 
 hi clear SignColumn
