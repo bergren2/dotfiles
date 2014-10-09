@@ -29,6 +29,7 @@ Plugin 'reedes/vim-lexical'
 Plugin 'reedes/vim-pencil'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
+Plugin 'SirVer/ultisnips'
 Plugin 'StanAngeloff/php.vim'
 Plugin 'timcharper/textile.vim'
 Plugin 'tpope/vim-cucumber'
@@ -109,6 +110,12 @@ set splitright
 
 map <F1> <Esc>
 imap <F1> <Esc>
+
+let g:UltiSnipsExpandTrigger='<c-k>'
+let g:UltiSnipsJumpForwardTrigger='<c-k>'
+let g:UltiSnipsJumpBackwardTrigger='<s-c-j>'
+let g:UltiSnipsSnippetDirectories=['UltiSnips']
+let g:UltiSnipsEditSplit='context'
 
 " NERDTree stuff
 let NERDTreeShowHidden=0 " disable -- I think I have the hang of this keybind now
