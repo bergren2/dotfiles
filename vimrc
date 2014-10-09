@@ -27,7 +27,6 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'othree/html5.vim'
 Plugin 'reedes/vim-lexical'
 Plugin 'reedes/vim-pencil'
-Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'SirVer/ultisnips'
 Plugin 'StanAngeloff/php.vim'
@@ -60,8 +59,6 @@ nnoremap <leader>p :CtrlPClearCache<cr>
 nnoremap <leader>y :YcmRestartServer<cr>
 nnoremap <silent> <f5> :let _s=@/<bar>:%s/\s\+$//e<bar>:let @/=_s<bar>:nohl<cr>
 nnoremap <silent> <leader>ch :exec 'silent !open -a "Google Chrome" % &'<cr>
-cnoreabbrev NT NERDTree
-cnoreabbrev NTM NERDTreeMirror
 cnoreabbrev qa tabclose
 cnoreabbrev TP TogglePencil
 
@@ -116,9 +113,6 @@ let g:UltiSnipsJumpForwardTrigger='<c-k>'
 let g:UltiSnipsJumpBackwardTrigger='<s-c-j>'
 let g:UltiSnipsSnippetDirectories=['UltiSnips']
 let g:UltiSnipsEditSplit='context'
-
-" NERDTree stuff
-let NERDTreeShowHidden=0 " disable -- I think I have the hang of this keybind now
 
 au FileType ruby compiler ruby
 au FileType xml exe ":silent %!xmllint --format --recover - 2>/dev/null"
