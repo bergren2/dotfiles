@@ -108,6 +108,8 @@ set splitright
 map <F1> <Esc>
 imap <F1> <Esc>
 
+let g:netrw_list_hide= '.*\.swp$'
+
 let g:UltiSnipsExpandTrigger='<c-k>'
 let g:UltiSnipsJumpForwardTrigger='<c-k>'
 let g:UltiSnipsJumpBackwardTrigger='<s-c-j>'
