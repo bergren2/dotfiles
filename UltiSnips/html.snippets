@@ -1,0 +1,21 @@
+snippet html
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>$1</title>
+	</head>
+	<body>
+		$0
+	</body>
+</html>
+endsnippet
+
+snippet t "starting/ending nested tag" b
+<${1:div}>
+	$0
+</${1/(\w+).*/$1/}>
+endsnippet
+
+snippet script
+<script type="text/javascript" src="$0"></script>
+endsnippet
