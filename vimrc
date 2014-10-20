@@ -79,10 +79,6 @@ let g:ycm_filetype_blacklist = {
       \ 'yaml' : 1
       \ }
 
-let g:syntastic_mode_map = {
-      \ 'passive_filetypes': ['css', 'scss']
-      \ }
-
 let g:syntastic_filetype_map = {
       \ 'html.handlebars': 'handlebars'
       \ }
