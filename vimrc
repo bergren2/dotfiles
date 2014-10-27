@@ -123,7 +123,7 @@ let g:pencil#autoformat_blacklist = [
 
 augroup pencil
   autocmd!
-  autocmd FileType text,markdown,textile,liquid call pencil#init()
+  autocmd FileType text,markdown,textile,liquid call pencil#init({'textwidth': 80})
 augroup END
 
 " Vim Lexical
