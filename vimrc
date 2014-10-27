@@ -69,7 +69,7 @@ syntax on
 " make 80 and 120 character limits easier to see
 let &colorcolumn="81,".join(range(121,999),",")
 
-let g:ctrlp_custom_ignore = '\/tmp\/'
+set wildignore+=*/build/*,*/tmp/*,*.so,*.swp,*.zip
 
 let g:ycm_filetype_blacklist = {
       \ 'gitcommit' : 1,
@@ -103,8 +103,6 @@ set splitright
 
 map <F1> <Esc>
 imap <F1> <Esc>
-
-let g:netrw_list_hide= '.*\.swp$'
 
 let g:UltiSnipsExpandTrigger='<c-k>'
 let g:UltiSnipsJumpForwardTrigger='<c-k>'
