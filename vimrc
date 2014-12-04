@@ -27,6 +27,7 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'othree/html5.vim'
 Plugin 'reedes/vim-lexical'
 Plugin 'reedes/vim-pencil'
+Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'SirVer/ultisnips'
 Plugin 'StanAngeloff/php.vim'
@@ -58,7 +59,8 @@ nnoremap <leader>p :CtrlPClearCache<cr>
 nnoremap <leader>y :YcmRestartServer<cr>
 nnoremap <silent> <f5> :let _s=@/<bar>:%s/\s\+$//e<bar>:let @/=_s<bar>:nohl<cr>
 nnoremap <silent> <leader>ch :exec 'silent !open -a "Google Chrome" % &'<cr>
-cnoreabbrev qa tabclose
+cnoreabbrev NT NERDTree
+cnoreabbrev NTM NERDTreeMirror
 cnoreabbrev TP TogglePencil
 
 colo vividchalk " so Vim doesn't crap itself while trying to first use Vundle
