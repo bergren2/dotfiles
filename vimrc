@@ -25,8 +25,6 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'othree/html5.vim'
-Plugin 'reedes/vim-lexical'
-Plugin 'reedes/vim-pencil'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'SirVer/ultisnips'
@@ -113,26 +111,6 @@ let g:UltiSnipsEditSplit='context'
 
 au FileType ruby compiler ruby
 au FileType xml exe ":silent %!xmllint --format --recover - 2>/dev/null"
-
-" Pencil
-let g:pencil#wrapModeDefault = 'hard'
-let g:airline_section_x = '%{PencilMode()}'
-
-let g:pencil#autoformat_blacklist = [
-      \ 'liquidYamlHead'
-      \ ]
-
-augroup pencil
-  autocmd!
-  autocmd FileType text,markdown,textile,liquid call pencil#init({'textwidth': 80})
-augroup END
-
-" Vim Lexical
-augroup lexical
-  autocmd!
-  autocmd FileType markdown,textile,liquid call lexical#init()
-  autocmd FileType text call lexical#init({ 'spell': 0 })
-augroup END
 
 hi clear SignColumn
 
