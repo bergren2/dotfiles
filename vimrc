@@ -82,6 +82,8 @@ let g:syntastic_filetype_map = {
       \ 'html.handlebars': 'handlebars'
       \ }
 
+let g:syntastic_javascript_checkers = ['jshint']
+
 set bg=dark
 set number
 set cindent
