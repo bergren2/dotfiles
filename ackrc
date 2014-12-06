@@ -7,6 +7,7 @@
 --ignore-dir=bower_components
 --ignore-dir=build
 --ignore-dir=dist
+--ignore-dir=.grunt
 --ignore-dir=log
 --ignore-dir=tmp
 --ignore-dir=out
