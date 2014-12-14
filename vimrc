@@ -68,7 +68,7 @@ syntax on
 " make 80 and 120 character limits easier to see
 let &colorcolumn="81,".join(range(121,999),",")
 
-set wildignore+=*/build/*,*/tmp/*,*.so,*.swp,*.zip
+set wildignore+=*/bower_components/*,*/build/*,*/node_modules/*,*/tmp/*,*.so,*.swp,*.zip
 
 let g:ycm_filetype_blacklist = {
       \ 'gitcommit' : 1,
