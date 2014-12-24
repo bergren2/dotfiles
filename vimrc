@@ -59,7 +59,6 @@ nnoremap <silent> <f5> :let _s=@/<bar>:%s/\s\+$//e<bar>:let @/=_s<bar>:nohl<cr>
 nnoremap <silent> <leader>ch :exec 'silent !open -a "Google Chrome" % &'<cr>
 cnoreabbrev NT NERDTree
 cnoreabbrev NTM NERDTreeMirror
-cnoreabbrev TP TogglePencil
 
 colo vividchalk " so Vim doesn't crap itself while trying to first use Vundle
 
