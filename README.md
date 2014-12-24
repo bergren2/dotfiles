@@ -10,6 +10,7 @@ It's a patched version of Adobe's Source Code Pro font to work with Airline.
 
 Next,
 
+    $ brew install python
     $ brew install macvim --override-system-vim
 
 At this point I check to make sure I have `+python` enabled so YouCompleteMe works.
@@ -31,6 +32,11 @@ And finally, the rest of YouCompleteMe:
 
     $ cd bundle/YouCompleteMe
     $ ./install.sh --clang-completer
+
+### Troubleshooting
+
+If Vim crashes due to Python errors, make sure you've installed MacVim and
+re-compiled YouCompleteMe with Homebrew Python installed first.
 
 ## Post Install
 
