@@ -47,6 +47,8 @@ filetype plugin indent on " required
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
+let g:EclimCompletionMethod = 'omnifunc'
+
 " Mappings and stuff
 let mapleader = ";"
 
@@ -57,7 +59,12 @@ nnoremap <leader>p :CtrlPClearCache<cr>
 nnoremap <leader>y :YcmRestartServer<cr>
 nnoremap <silent> <f5> :let _s=@/<bar>:%s/\s\+$//e<bar>:let @/=_s<bar>:nohl<cr>
 nnoremap <silent> <leader>ch :exec 'silent !open -a "Google Chrome" % &'<cr>
-cnoreabbrev NT NERDTree
+
+" NERDTree stuff
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+map <c-n> :NERDTreeToggle<cr>
 cnoreabbrev NTM NERDTreeMirror
 
 colo vividchalk " so Vim doesn't crap itself while trying to first use Vundle

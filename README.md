@@ -33,6 +33,27 @@ And finally, the rest of YouCompleteMe:
     $ cd bundle/YouCompleteMe
     $ ./install.sh --clang-completer
 
+### Eclim
+
+First, make sure you have [Homebrew Cask](http://caskroom.io/). Then install
+Java and Eclipse:
+
+    $ brew cask install java
+    $ brew cask install eclipse-ide
+
+Then [download eclim](http://sourceforge.net/projects/eclim). And run the GUI
+installer:
+
+    $ java -jar eclim_2.4.0.jar
+
+Point towards your Eclipse installation at
+`/opt/homebrew-cask/Caskroom/eclipse-ide/4.4.1/eclipse` and install features for
+Java and Ruby. Also be sure to add the following alias:
+
+    $ alias eclimd='/opt/homebrew-cask/Caskroom/eclipse-ide/4.4.1/eclipse/eclimd'
+
+which will make starting the eclimd daemon much easier.
+
 ### Troubleshooting
 
 If Vim crashes due to Python errors, make sure you've installed MacVim and
