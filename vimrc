@@ -48,6 +48,7 @@ filetype plugin indent on " required
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 let g:EclimCompletionMethod = 'omnifunc'
+let g:EclimFileTypeValidate = 0
 
 " Mappings and stuff
 let mapleader = ";"
