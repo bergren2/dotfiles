@@ -10,7 +10,6 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " GitHub repos
-Plugin 'altercation/vim-colors-solarized'
 Plugin 'avakhov/vim-yaml'
 Plugin 'bergren2/JavaScript-Indent'
 Plugin 'bling/vim-airline'
@@ -30,6 +29,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'SirVer/ultisnips'
 Plugin 'StanAngeloff/php.vim'
 Plugin 'timcharper/textile.vim'
+Plugin 'tomasr/molokai'
 Plugin 'tpope/vim-cucumber'
 Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-fireplace'
@@ -68,8 +68,7 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 map <c-n> :NERDTreeToggle<cr>
 cnoreabbrev NTM NERDTreeMirror
 
-colo vividchalk " so Vim doesn't crap itself while trying to first use Vundle
-
+colo molokai
 syntax on
 
 " make 80 and 120 character limits easier to see
