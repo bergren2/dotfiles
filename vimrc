@@ -60,6 +60,10 @@ nnoremap <leader>p :CtrlPClearCache<cr>
 nnoremap <leader>y :YcmRestartServer<cr>
 nnoremap <silent> <f5> :let _s=@/<bar>:%s/\s\+$//e<bar>:let @/=_s<bar>:nohl<cr>
 nnoremap <silent> <leader>ch :exec 'silent !open -a "Google Chrome" % &'<cr>
+nnoremap <leader>s :syn sync fromstart<cr>
+
+map <F1> <Esc>
+imap <F1> <Esc>
 
 " NERDTree stuff
 autocmd StdinReadPre * let s:std_in=1
@@ -107,9 +111,6 @@ set autoindent
 set expandtab " use spaces for fun and profit
 set splitbelow
 set splitright
-
-map <F1> <Esc>
-imap <F1> <Esc>
 
 let g:UltiSnipsExpandTrigger='<c-k>'
 let g:UltiSnipsJumpForwardTrigger='<c-k>'
