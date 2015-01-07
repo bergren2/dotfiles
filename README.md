@@ -44,3 +44,10 @@ If you care, you can make sure Git uses the right Vim for editing commit
 messages.
 
     $ git config --global core.editor "vim"
+
+## What about Java?
+
+For Java we use Eclipse. You should install it using [Homebrew Cask](http://caskroom.io/).
+Then go to "Help > Install New Software..." and enter in the URL
+"http://vrapper.sourceforge.net/update-site/stable". Check the options you'd
+like and then you're good to go!
