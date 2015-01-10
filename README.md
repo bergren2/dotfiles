@@ -1,6 +1,7 @@
 # ohai .vim
 
-My Vim files. Please mind the dust.
+My Vim files. Please mind the dust, especially as we make our way over to the
+[dotfiles](https://github.com/bergren2/dotfiles) project repo.
 
 ## Installation
 
