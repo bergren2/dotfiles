@@ -51,5 +51,8 @@ messages.
 For Java we use Eclipse. You should install it using [Homebrew Cask](http://caskroom.io/).
 Then go to "Help > Install New Software..." and enter in the URL
 "http://vrapper.sourceforge.net/update-site/stable". Check the options you'd
-like and then you're good to go! You an also install the Eclipse Color Plugin
+like and then you're good to go! Also make sure to change the Eclipse editor
+keys to use the Vim configuration.
+
+You an also install the Eclipse Color Plugin
 ("http://eclipse-color-theme.github.io/update") and then download/add the [Molokai](http://eclipsecolorthemes.org/?view=theme&id=3908).
