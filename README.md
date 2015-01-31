@@ -29,10 +29,12 @@ Then the easy part:
     $ git clone https://github.com/gmarik/vundle.git bundle/Vundle.vim
     $ vim +PluginInstall +qall
 
-And finally, the rest of YouCompleteMe:
+And finally, the rest of YouCompleteMe (and Tern):
 
     $ cd bundle/YouCompleteMe
     $ ./install.sh --clang-completer
+    $ cd ../tern_for_vim
+    $ npm install
 
 ### Troubleshooting
 

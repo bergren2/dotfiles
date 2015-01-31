@@ -21,6 +21,7 @@ Plugin 'groenewege/vim-less'
 Plugin 'guns/vim-clojure-static'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
+Plugin 'marijnh/tern_for_vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'othree/html5.vim'
@@ -76,6 +77,8 @@ syntax on
 let &colorcolumn="81,".join(range(121,999),",")
 
 set wildignore+=*/bower_components/*,*/build/*,*/node_modules/*,*/tmp/*,*.so,*.swp,*.zip
+
+autocmd FileType javascript setlocal omnifunc=tern#Complete
 
 let g:ycm_filetype_blacklist = {
       \ 'gitcommit' : 1,
