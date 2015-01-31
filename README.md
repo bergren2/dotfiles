@@ -56,9 +56,5 @@ Then go to "Help > Install New Software..." and enter in the URL
 like and then you're good to go! Also make sure to change the Eclipse editor
 keys to use the Vim configuration.
 
-Next, we need to create the .vrapperrc file in your home directory:
-
-    $ cp vrapperrc ~/.vrapperrc
-
-You can also install the Eclipse Color Plugin
-("http://eclipse-color-theme.github.io/update") and then download/add the [Molokai](http://eclipsecolorthemes.org/?view=theme&id=3908).
+You can also install the Eclipse Color Plugin ("http://eclipse-color-theme.github.io/update")
+and then download/add the [Molokai](http://eclipsecolorthemes.org/?view=theme&id=3908).

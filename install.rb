@@ -17,13 +17,10 @@ rescue
 end
 
 here = File.dirname(__FILE__)
-vimpath = File.expand_path('vimrc', here)
-link_with_check(vimpath, File.expand_path('~/.vimrc'))
 
-gvimpath = File.expand_path('gvimrc', here)
-link_with_check(gvimpath, File.expand_path('~/.gvimrc'))
-
-ackpath = File.expand_path('ackrc', here)
-link_with_check(ackpath, File.expand_path('~/.ackrc'))
+['vimrc', 'gvimrc', 'ackrc', 'vrapperrc'].each do |name|
+  path = File.expand_path(name, here)
+  link_with_check(path, File.expand_path("~/.#{name}"))
+end
 
 puts "done."
