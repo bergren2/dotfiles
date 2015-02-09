@@ -93,7 +93,11 @@ let g:syntastic_filetype_map = {
       \ }
 
 let g:syntastic_javascript_checkers = ['jshint']
-let g:syntastic_html_tidy_ignore_errors = ['trimming empty']
+let g:syntastic_html_tidy_ignore_errors = [
+      \ 'escaping malformed URI reference',
+      \ 'proprietary attribute',
+      \ 'trimming empty'
+      \ ]
 
 set bg=dark
 set number
