@@ -40,6 +40,7 @@ Plugin 'tpope/vim-haml'
 Plugin 'tpope/vim-liquid'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-surround'
+Plugin 'Valloric/MatchTagAlways'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-ruby/vim-ruby'
 
