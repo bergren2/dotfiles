@@ -32,6 +32,7 @@ Plugin 'StanAngeloff/php.vim'
 Plugin 'timcharper/textile.vim'
 Plugin 'tomasr/molokai'
 Plugin 'tpope/vim-cucumber'
+Plugin 'tpope/vim-dispatch'
 Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-fireplace'
 Plugin 'tpope/vim-fugitive'
@@ -80,6 +81,9 @@ let &colorcolumn="81,".join(range(121,999),",")
 set wildignore+=*/bower_components/*,*/build/*,*/node_modules/*,*/tmp/*,*.so,*.swp,*.zip
 
 autocmd FileType javascript setlocal omnifunc=tern#Complete
+
+let g:ycm_auto_start_csharp_server = 1
+let g:ycm_auto_stop_csharp_server = 1
 
 let g:ycm_filetype_blacklist = {
       \ 'gitcommit' : 1,

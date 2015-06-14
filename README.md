@@ -21,6 +21,10 @@ Also necessary for YouCompleteMe:
 
     $ brew install cmake
 
+If you're using OmniSharp for C# completion, you'll need to
+[download and install](http://www.mono-project.com/download/) the latest Mono.
+Homebrew's version of Mono doesn't really work well here, unfortunately.
+
 Then the easy part:
 
     $ git clone git@github.com:bergren2/dotvim.git ~/.vim
@@ -29,10 +33,10 @@ Then the easy part:
     $ git clone https://github.com/gmarik/vundle.git bundle/Vundle.vim
     $ vim +PluginInstall +qall
 
-And finally, the rest of YouCompleteMe (and Tern):
+And finally, the rest of YouCompleteMe and Tern:
 
     $ cd bundle/YouCompleteMe
-    $ ./install.sh --clang-completer
+    $ ./install.sh --clang-completer --omnisharp-completer
     $ cd ../tern_for_vim
     $ npm install
 
@@ -57,4 +61,4 @@ like and then you're good to go! Also make sure to change the Eclipse editor
 keys to use the Vim configuration.
 
 You can also install the Eclipse Color Plugin ("http://eclipse-color-theme.github.io/update")
-and then download/add the [Molokai](http://eclipsecolorthemes.org/?view=theme&id=3908).
+and then download/add [Molokai](http://eclipsecolorthemes.org/?view=theme&id=3908).
