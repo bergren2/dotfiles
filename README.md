@@ -62,3 +62,9 @@ keys to use the Vim configuration.
 
 You can also install the Eclipse Color Plugin ("http://eclipse-color-theme.github.io/update")
 and then download/add [Molokai](http://eclipsecolorthemes.org/?view=theme&id=3908).
+
+## What about .NET?
+
+For .NET and other Windows-y languages, we use Visual Studio. [Community](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx) should do the trick but if you need Pro or Ultimate you'll need to contact your school, work, etc.
+
+Visual Studio also supports [Molokai](http://studiostyl.es/schemes/molokai) theming.
