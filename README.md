@@ -3,6 +3,16 @@
 My Vim files. Please mind the dust, especially as we make our way over to the
 [dotfiles](https://github.com/bergren2/dotfiles) project repo.
 
+## Prereqs
+
+You'll need [Homebrew](http://brew.sh), [Git](https://help.github.com/articles/generating-ssh-keys/),
+and Node set-up. The install guides linked above should be pretty self-explanatory,
+and you can use Homebrew to install your dependencies. And when you install
+Xcode (from the App Store), you'll need to accept their terms from the terminal
+using
+
+    $ sudo xcodebuild -license
+
 ## Installation
 
 First, install [Source Code Pro for
@@ -36,7 +46,7 @@ Then the easy part:
 And finally, the rest of YouCompleteMe and Tern:
 
     $ cd bundle/YouCompleteMe
-    $ ./install.sh --clang-completer --omnisharp-completer
+    $ ./install.py --clang-completer --omnisharp-completer
     $ cd ../tern_for_vim
     $ npm install
 
