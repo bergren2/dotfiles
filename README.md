@@ -77,4 +77,4 @@ and then download/add [Molokai](http://eclipsecolorthemes.org/?view=theme&id=390
 
 For .NET and other Windows-y languages, we use Visual Studio. [Community](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx) should do the trick but if you need Pro or Ultimate you'll need to contact your school, work, etc.
 
-Visual Studio also supports [Molokai](http://studiostyl.es/schemes/molokai) theming.
+Visual Studio also supports [Molokai](http://studiostyl.es/schemes/molokai) theming, and there's an excellent [VsVim](https://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329) extension you can use for bindings.
