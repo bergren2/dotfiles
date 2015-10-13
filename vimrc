@@ -32,7 +32,6 @@ Plugin 'scrooloose/syntastic'
 Plugin 'SirVer/ultisnips'
 Plugin 'StanAngeloff/php.vim'
 Plugin 'timcharper/textile.vim'
-Plugin 'tomasr/molokai'
 Plugin 'tpope/vim-cucumber'
 Plugin 'tpope/vim-dispatch'
 Plugin 'tpope/vim-endwise'
@@ -74,7 +73,7 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 map <c-n> :NERDTreeToggle<cr>
 cnoreabbrev NTM NERDTreeMirror
 
-colo molokai
+colo Tomorrow-Night-Bright
 syntax on
 
 " make 80 and 120 character limits easier to see

@@ -71,10 +71,15 @@ like and then you're good to go! Also make sure to change the Eclipse editor
 keys to use the Vim configuration.
 
 You can also install the Eclipse Color Plugin ("http://eclipse-color-theme.github.io/update")
-and then download/add [Molokai](http://eclipsecolorthemes.org/?view=theme&id=3908).
+for theming.
 
 ## What about .NET?
 
 For .NET and other Windows-y languages, we use Visual Studio. [Community](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx) should do the trick but if you need Pro or Ultimate you'll need to contact your school, work, etc.
 
-Visual Studio also supports [Molokai](http://studiostyl.es/schemes/molokai) theming, and there's an excellent [VsVim](https://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329) extension you can use for bindings.
+## Theming
+
+Since we try to stay consistent between editors, our theme of choice is
+[Tomorrow](https://github.com/chriskempson/tomorrow-theme) by Chris Kempson.
+It's available for Vim, Eclipse, Visual Studio, and a lot of other editors you
+might use.
