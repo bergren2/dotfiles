@@ -1,4 +1,10 @@
 " vim-plug
+
+" Load vim-plug
+if empty(glob("~/.vim/autoload/plug.vim"))
+  execute '!curl -fLo ~/.vim/autoload/plug.vim https://raw.github.com/junegunn/vim-plug/master/plug.vim'
+endif
+
 call plug#begin('~/.vim/plugged')
 
 " GitHub repos
@@ -14,7 +20,7 @@ Plug 'groenewege/vim-less'
 Plug 'guns/vim-clojure-static'
 Plug 'kchmck/vim-coffee-script'
 Plug 'kien/ctrlp.vim'
-Plug 'marijnh/tern_for_vim', {'do': 'npm install' }
+Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 Plug 'mileszs/ack.vim'
 Plug 'msanders/cocoa.vim'
 Plug 'nathanaelkane/vim-indent-guides'
