@@ -66,7 +66,10 @@ imap <F1> <Esc>
 
 " NERDTree stuff
 autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+if !empty(glob("~/.vim/plugged/nerdtree/"))
+  autocmd StdinReadPre * let s:std_in=1
+  autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+endif
 
 map <c-n> :NERDTreeToggle<cr>
 cnoreabbrev NTM NERDTreeMirror
