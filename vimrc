@@ -9,40 +9,40 @@ call plug#begin('~/.vim/plugged')
 
 " GitHub repos
 Plug 'airblade/vim-gitgutter'
-Plug 'avakhov/vim-yaml'
-Plug 'bergren2/JavaScript-Indent'
+Plug 'avakhov/vim-yaml', { 'for': 'yaml' }
+Plug 'bergren2/JavaScript-Indent', { 'for': 'javascript' }
 Plug 'bling/vim-airline'
-Plug 'chrisbra/csv.vim'
-Plug 'digitaltoad/vim-jade'
-Plug 'elzr/vim-json'
+Plug 'chrisbra/csv.vim', { 'for': 'csv' }
+Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
+Plug 'elzr/vim-json', { 'for': 'json' }
 Plug 'gerw/vim-HiLinkTrace'
-Plug 'groenewege/vim-less'
-Plug 'guns/vim-clojure-static'
-Plug 'kchmck/vim-coffee-script'
+Plug 'groenewege/vim-less', { 'for': 'less' }
+Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
+Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 Plug 'kien/ctrlp.vim'
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 Plug 'mileszs/ack.vim'
 Plug 'msanders/cocoa.vim'
 Plug 'nathanaelkane/vim-indent-guides'
-Plug 'othree/html5.vim'
+Plug 'othree/html5.vim', { 'for': 'html' }
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
 Plug 'SirVer/ultisnips'
-Plug 'StanAngeloff/php.vim'
-Plug 'timcharper/textile.vim'
+Plug 'StanAngeloff/php.vim', { 'for': 'php' }
+Plug 'timcharper/textile.vim', { 'for': 'textile' }
 Plug 'tpope/vim-cucumber'
 Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-endwise'
-Plug 'tpope/vim-fireplace'
+Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-git'
-Plug 'tpope/vim-haml'
+Plug 'tpope/vim-haml', { 'for': 'haml' }
 Plug 'tpope/vim-liquid'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-surround'
 Plug 'Valloric/MatchTagAlways'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --omnisharp-completer' }
-Plug 'vim-ruby/vim-ruby'
+Plug 'vim-ruby/vim-ruby', { 'for': 'ruby' }
 
 call plug#end()
 
