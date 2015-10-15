@@ -40,15 +40,7 @@ Then the easy part:
     $ git clone git@github.com:bergren2/dotvim.git ~/.vim
     $ cd $_
     $ ruby install.rb
-    $ git clone https://github.com/gmarik/vundle.git bundle/Vundle.vim
-    $ vim +PluginInstall +qall
-
-And finally, the rest of YouCompleteMe and Tern:
-
-    $ cd bundle/YouCompleteMe
-    $ ./install.py --clang-completer --omnisharp-completer
-    $ cd ../tern_for_vim
-    $ npm install
+    $ vim +PlugInstall
 
 ### Troubleshooting
 

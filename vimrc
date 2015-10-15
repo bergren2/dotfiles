@@ -1,54 +1,46 @@
-set nocompatible              " be iMproved, required
-filetype off                  " required
-
-au FileType crontab set nobackup nowritebackup
-
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-" let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+" vim-plug
+call plug#begin('~/.vim/plugged')
 
 " GitHub repos
-Plugin 'airblade/vim-gitgutter'
-Plugin 'avakhov/vim-yaml'
-Plugin 'bergren2/JavaScript-Indent'
-Plugin 'bling/vim-airline'
-Plugin 'chrisbra/csv.vim'
-Plugin 'digitaltoad/vim-jade'
-Plugin 'elzr/vim-json'
-Plugin 'gerw/vim-HiLinkTrace'
-Plugin 'groenewege/vim-less'
-Plugin 'guns/vim-clojure-static'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'kien/ctrlp.vim'
-Plugin 'marijnh/tern_for_vim'
-Plugin 'mileszs/ack.vim'
-Plugin 'msanders/cocoa.vim'
-Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'othree/html5.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/syntastic'
-Plugin 'SirVer/ultisnips'
-Plugin 'StanAngeloff/php.vim'
-Plugin 'timcharper/textile.vim'
-Plugin 'tpope/vim-cucumber'
-Plugin 'tpope/vim-dispatch'
-Plugin 'tpope/vim-endwise'
-Plugin 'tpope/vim-fireplace'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-git'
-Plugin 'tpope/vim-haml'
-Plugin 'tpope/vim-liquid'
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-surround'
-Plugin 'Valloric/MatchTagAlways'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'vim-ruby/vim-ruby'
+Plug 'airblade/vim-gitgutter'
+Plug 'avakhov/vim-yaml'
+Plug 'bergren2/JavaScript-Indent'
+Plug 'bling/vim-airline'
+Plug 'chrisbra/csv.vim'
+Plug 'digitaltoad/vim-jade'
+Plug 'elzr/vim-json'
+Plug 'gerw/vim-HiLinkTrace'
+Plug 'groenewege/vim-less'
+Plug 'guns/vim-clojure-static'
+Plug 'kchmck/vim-coffee-script'
+Plug 'kien/ctrlp.vim'
+Plug 'marijnh/tern_for_vim', {'do': 'npm install' }
+Plug 'mileszs/ack.vim'
+Plug 'msanders/cocoa.vim'
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'othree/html5.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
+Plug 'SirVer/ultisnips'
+Plug 'StanAngeloff/php.vim'
+Plug 'timcharper/textile.vim'
+Plug 'tpope/vim-cucumber'
+Plug 'tpope/vim-dispatch'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-fireplace'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-git'
+Plug 'tpope/vim-haml'
+Plug 'tpope/vim-liquid'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-surround'
+Plug 'Valloric/MatchTagAlways'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --omnisharp-completer' }
+Plug 'vim-ruby/vim-ruby'
 
-call vundle#end()         " required
-filetype plugin indent on " required
+call plug#end()
 
+au FileType crontab set nobackup nowritebackup
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 " Mappings and stuff
