@@ -22,7 +22,7 @@ It's a patched version of Adobe's Source Code Pro font to work with Airline.
 Next,
 
     $ brew install python
-    $ brew install macvim --override-system-vim
+    $ brew install macvim --with-override-system-vim
 
 At this point I check to make sure I have `+python` enabled so YouCompleteMe works.
 This is easy to do via `vim --version`.
