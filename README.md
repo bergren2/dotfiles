@@ -68,7 +68,7 @@ for theming.
 
 For .NET and other Windows-y languages, we use Visual Studio. [Community](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx) should do the trick but if you need Pro or Ultimate you'll need to contact your school, work, etc.
 
-here are some plugins you might want to install:
+Here are some plugins you might want to install:
 - https://github.com/jaredpar/VsVim
 - https://github.com/laurentkempe/GitDiffMargin
 
