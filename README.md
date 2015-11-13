@@ -15,9 +15,8 @@ using
 
 ## Installation
 
-First, install [Source Code Pro for
-Powerline](https://github.com/Lokaltog/powerline-fonts/tree/master/SourceCodePro).
-It's a patched version of Adobe's Source Code Pro font to work with Airline.
+First, install [Source Code Pro](https://github.com/adobe-fonts/source-code-pro).
+It's a nice font that supports Powerline characters.
 
 Next,
 
