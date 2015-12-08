@@ -39,6 +39,7 @@ Then the easy part:
     $ git clone git@github.com:bergren2/dotvim.git ~/.vim
     $ cd $_
     $ ruby install.rb
+    $ mkdir autoload
     $ vim +PlugInstall
 
 ### Troubleshooting
