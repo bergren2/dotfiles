@@ -72,6 +72,9 @@ For .NET and other Windows-y languages, we use Visual Studio. [Community](https:
 Here are some plugins you might want to install:
 - https://github.com/jaredpar/VsVim
 - https://github.com/laurentkempe/GitDiffMargin
+- https://github.com/madskristensen/TrailingWhitespace
+
+When this list becomes too long we'll think about automating their installation.
 
 ## Theming
 
