@@ -9,6 +9,7 @@
 --ignore-dir=dist
 --ignore-dir=.grunt
 --ignore-dir=log
+--ignore-dir=plugged
 --ignore-dir=tmp
 --ignore-dir=out
 --ignore-dir=.sass-cache
