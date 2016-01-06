@@ -14,6 +14,7 @@ Plug 'bling/vim-airline'
 Plug 'burnettk/vim-angular', { 'for': 'javascript' }
 Plug 'chrisbra/csv.vim', { 'for': 'csv' }
 Plug 'claco/jasmine.vim', { 'for': 'javascript' }
+Plug 'derekwyatt/vim-scala', { 'for': 'scala' }
 Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
 Plug 'elzr/vim-json', { 'for': 'json' }
 Plug 'gerw/vim-HiLinkTrace'
