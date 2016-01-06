@@ -10,9 +10,10 @@ call plug#begin('~/.vim/plugged')
 " GitHub repos
 Plug 'airblade/vim-gitgutter'
 Plug 'avakhov/vim-yaml', { 'for': 'yaml' }
-Plug 'bergren2/JavaScript-Indent', { 'for': 'javascript' }
 Plug 'bling/vim-airline'
+Plug 'burnettk/vim-angular', { 'for': 'javascript' }
 Plug 'chrisbra/csv.vim', { 'for': 'csv' }
+Plug 'claco/jasmine.vim', { 'for': 'javascript' }
 Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
 Plug 'elzr/vim-json', { 'for': 'json' }
 Plug 'gerw/vim-HiLinkTrace'
@@ -20,12 +21,13 @@ Plug 'groenewege/vim-less', { 'for': 'less' }
 Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 Plug 'kien/ctrlp.vim'
-Plug 'kovisoft/slimv'
+Plug 'kovisoft/slimv', { 'for': 'lisp' }
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 Plug 'mileszs/ack.vim'
 Plug 'msanders/cocoa.vim'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'othree/html5.vim', { 'for': 'html' }
+Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
 Plug 'SirVer/ultisnips'

@@ -20,7 +20,7 @@ It's a nice font that supports Powerline characters.
 
 Next,
 
-    $ brew install python
+    $ brew install ack python
     $ brew install macvim --with-override-system-vim
 
 At this point I check to make sure I have `+python` enabled so YouCompleteMe works.
@@ -33,6 +33,10 @@ Also necessary for YouCompleteMe:
 If you're using OmniSharp for C# completion, you'll need to
 [download and install](http://www.mono-project.com/download/) the latest Mono.
 Homebrew's version of Mono doesn't really work well here, unfortunately.
+
+Some Node libraries to install:
+
+    $ npm install -g jshint
 
 Then the easy part:
 
