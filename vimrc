@@ -16,16 +16,20 @@ Plug 'chrisbra/csv.vim', { 'for': 'csv' }
 Plug 'claco/jasmine.vim', { 'for': 'javascript' }
 Plug 'derekwyatt/vim-scala', { 'for': 'scala' }
 Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
+Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
 Plug 'elzr/vim-json', { 'for': 'json' }
+Plug 'gcmt/taboo.vim'
 Plug 'gerw/vim-HiLinkTrace'
 Plug 'groenewege/vim-less', { 'for': 'less' }
 Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
+Plug 'jiangmiao/auto-pairs'
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 Plug 'kien/ctrlp.vim'
-Plug 'kovisoft/slimv', { 'for': 'lisp' }
+Plug 'kovisoft/slimv', { 'for': ['lisp', 'scheme'] }
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 Plug 'mileszs/ack.vim'
 Plug 'msanders/cocoa.vim'
+Plug 'mustache/vim-mustache-handlebars', { 'for': 'html.handlebars' }
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'othree/html5.vim', { 'for': 'html' }
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
@@ -74,6 +78,8 @@ if !empty(glob("~/.vim/plugged/nerdtree/"))
   autocmd StdinReadPre * let s:std_in=1
   autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 endif
+
+let NERDTreeIgnore = ["__pycache__"]
 
 map <c-n> :NERDTreeToggle<cr>
 cnoreabbrev NTM NERDTreeMirror
@@ -130,7 +136,7 @@ set splitright
 
 let g:UltiSnipsExpandTrigger='<c-k>'
 let g:UltiSnipsJumpForwardTrigger='<c-k>'
-let g:UltiSnipsJumpBackwardTrigger='<s-c-j>'
+let g:UltiSnipsJumpBackwardTrigger='<c-j>'
 let g:UltiSnipsSnippetDirectories=['UltiSnips']
 let g:UltiSnipsEditSplit='context'
 
@@ -140,3 +146,7 @@ au FileType xml exe ":silent %!xmllint --format --recover - 2>/dev/null"
 hi clear SignColumn
 
 let g:airline_powerline_fonts = 1
+
+" slimv
+let g:lisp_rainbow=1
+let g:paredit_mode=0
