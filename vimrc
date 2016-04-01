@@ -130,6 +130,7 @@ set laststatus=2
 set list
 set listchars=tab:▸\ ,eol:¬
 set backspace=indent,eol,start
+set timeoutlen=0
 
 set autoindent
 set expandtab " use spaces for fun and profit
