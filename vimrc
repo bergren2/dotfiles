@@ -10,7 +10,6 @@ call plug#begin('~/.vim/plugged')
 " GitHub repos
 Plug 'airblade/vim-gitgutter'
 Plug 'avakhov/vim-yaml', { 'for': 'yaml' }
-Plug 'bling/vim-airline'
 Plug 'burnettk/vim-angular', { 'for': 'javascript' }
 Plug 'chrisbra/csv.vim', { 'for': 'csv' }
 Plug 'claco/jasmine.vim', { 'for': 'javascript' }
@@ -50,6 +49,8 @@ Plug 'tpope/vim-rails'
 Plug 'tpope/vim-surround'
 Plug 'Valloric/MatchTagAlways'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --omnisharp-completer' }
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-ruby/vim-ruby', { 'for': 'ruby' }
 
 call plug#end()
@@ -147,6 +148,7 @@ au FileType xml exe ":silent %!xmllint --format --recover - 2>/dev/null"
 hi clear SignColumn
 
 let g:airline_powerline_fonts = 1
+let g:airline_theme = "tomorrow"
 
 " slimv
 let g:lisp_rainbow=1
