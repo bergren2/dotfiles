@@ -150,6 +150,8 @@ hi clear SignColumn
 
 let g:airline_powerline_fonts = 1
 let g:airline_theme = "tomorrow"
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
 
 " slimv
 let g:lisp_rainbow=1
