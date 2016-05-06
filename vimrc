@@ -52,6 +52,7 @@ Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --omnisha
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-ruby/vim-ruby', { 'for': 'ruby' }
+Plug 'vim-scripts/SQLComplete.vim', { 'for': 'sql' }
 
 call plug#end()
 
