@@ -22,6 +22,7 @@ Plug 'gerw/vim-HiLinkTrace'
 Plug 'groenewege/vim-less', { 'for': 'less' }
 Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
 Plug 'jiangmiao/auto-pairs'
+Plug 'jalvesaq/Nvim-R', { 'for': 'r' }
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 Plug 'kien/ctrlp.vim'
 Plug 'kovisoft/slimv', { 'for': ['lisp', 'scheme'] }
