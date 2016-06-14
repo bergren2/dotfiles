@@ -25,6 +25,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'jalvesaq/Nvim-R', { 'for': 'r' }
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 Plug 'kien/ctrlp.vim'
+Plug 'keith/swift.vim', { 'for': 'swift' }
 Plug 'kovisoft/slimv', { 'for': ['lisp', 'scheme'] }
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 Plug 'mileszs/ack.vim'
