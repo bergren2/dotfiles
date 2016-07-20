@@ -117,7 +117,9 @@ let g:syntastic_javascript_checkers = ['jshint']
 let g:syntastic_html_tidy_ignore_errors = [
       \ 'escaping malformed URI reference',
       \ 'proprietary attribute',
-      \ 'trimming empty'
+      \ 'trimming empty',
+      \ 'is not recognized!',
+      \ 'discarding unexpected'
       \ ]
 
 set bg=dark
