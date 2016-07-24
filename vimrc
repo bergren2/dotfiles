@@ -119,7 +119,8 @@ let g:syntastic_html_tidy_ignore_errors = [
       \ 'proprietary attribute',
       \ 'trimming empty',
       \ 'is not recognized!',
-      \ 'discarding unexpected'
+      \ 'discarding unexpected',
+      \ 'plain text isn''t allowed in <head> elements'
       \ ]
 
 set bg=dark
