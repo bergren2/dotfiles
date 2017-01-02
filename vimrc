@@ -49,6 +49,7 @@ Plug 'tpope/vim-haml', { 'for': 'haml' }
 Plug 'tpope/vim-liquid'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-surround'
+Plug 'udalov/kotlin-vim'
 Plug 'Valloric/MatchTagAlways'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --omnisharp-completer' }
 Plug 'vim-airline/vim-airline'
