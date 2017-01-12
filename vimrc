@@ -84,7 +84,7 @@ if !empty(glob("~/.vim/plugged/nerdtree/"))
   autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 endif
 
-let NERDTreeIgnore = ["__pycache__"]
+let NERDTreeIgnore = ["__pycache__", "\.class$"]
 
 map <c-n> :NERDTreeToggle<cr>
 cnoreabbrev NTM NERDTreeMirror
