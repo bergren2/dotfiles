@@ -34,6 +34,7 @@ Plug 'mustache/vim-mustache-handlebars', { 'for': 'html.handlebars' }
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'othree/html5.vim', { 'for': 'html' }
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
+Plug 'rudes/vim-java', { 'for': 'java' }
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
 Plug 'SirVer/ultisnips'
