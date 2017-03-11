@@ -19,6 +19,7 @@ Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
 Plug 'elzr/vim-json', { 'for': 'json' }
 Plug 'gcmt/taboo.vim'
 Plug 'gerw/vim-HiLinkTrace'
+Plug 'godlygeek/tabular'
 Plug 'groenewege/vim-less', { 'for': 'less' }
 Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
 Plug 'jiangmiao/auto-pairs'
@@ -35,6 +36,7 @@ Plug 'mustache/vim-mustache-handlebars', { 'for': 'html.handlebars' }
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'othree/html5.vim', { 'for': 'html' }
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
+Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'rudes/vim-java', { 'for': 'java' }
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
@@ -172,3 +174,5 @@ if $TERM_PROGRAM =~ "iTerm"
   let &t_SI = "\<Esc>]50;CursorShape=1\x7" " Vertical bar in insert mode
   let &t_EI = "\<Esc>]50;CursorShape=0\x7" " Block in normal mode
 endif
+
+let g:vim_markdown_folding_disabled = 1
