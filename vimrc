@@ -87,6 +87,7 @@ if !empty(glob("~/.vim/plugged/nerdtree/"))
 endif
 
 let NERDTreeIgnore = ["__pycache__", "\.class$", "\.zip$"]
+let NERDTreeMinimalUI = 1
 
 map <c-n> :NERDTreeToggle<cr>
 cnoreabbrev NTM NERDTreeMirror
