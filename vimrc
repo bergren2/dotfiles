@@ -23,6 +23,7 @@ Plug 'groenewege/vim-less', { 'for': 'less' }
 Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
 Plug 'jiangmiao/auto-pairs'
 Plug 'jalvesaq/Nvim-R', { 'for': 'r' }
+Plug 'junegunn/vim-github-dashboard', { 'on': ['GHDashboard', 'GHActivity'] }
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 Plug 'kien/ctrlp.vim'
 Plug 'keith/swift.vim', { 'for': 'swift' }
