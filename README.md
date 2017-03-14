@@ -19,15 +19,10 @@ It's a nice font that supports Powerline characters.
 
 Next,
 
-    $ brew install ack python
-    $ brew install vim --with-override-system-vim
+    $ brew install ack cmake node vim --with-custom-python
 
 At this point I check to make sure I have `+python` enabled so YouCompleteMe works.
 This is easy to do via `vim --version`.
-
-Also necessary for YouCompleteMe:
-
-    $ brew install cmake
 
 If you're using OmniSharp for C# completion, you'll need to
 [download and install](http://www.mono-project.com/download/) the latest Mono.
@@ -47,8 +42,15 @@ Then the easy part:
 
 ### Troubleshooting
 
-If Vim crashes due to Python errors, make sure you've installed Homebrew Python
-before compiling YouCompleteMe or installing Homebrew Vim.
+If Vim crashes due to Python errors, make sure you have Python installed before
+compiling YouCompleteMe or installing Homebrew Vim. MacOS ships with Python, but
+this could also be due to [pyenv](https://github.com/pyenv/pyenv) madness.
+
+[rbenv](https://github.com/rbenv/rbenv) and [nodenv](https://github.com/nodenv/nodenv)
+madness exist as well. Proceed with caution.
+
+If you're trying to do a clean reinstall of vim + plugins, be sure to wipe out
+the `plugged` directory.
 
 ## Post Install
 
