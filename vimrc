@@ -88,7 +88,7 @@ if !empty(glob("~/.vim/plugged/nerdtree/"))
   autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 endif
 
-let NERDTreeIgnore = ["__pycache__", "\.class$", "\.zip$"]
+let NERDTreeIgnore = ["__pycache__", "\.class$", "\.zip$", "target[[dir]]", "project[[dir]]", "node_modules[[dir]]"]
 let NERDTreeMinimalUI = 1
 
 map <c-n> :NERDTreeToggle<cr>
@@ -128,6 +128,10 @@ let g:syntastic_html_tidy_ignore_errors = [
       \ 'discarding unexpected',
       \ 'plain text isn''t allowed in <head> elements'
       \ ]
+let g:syntastic_mode_map = {
+      \ 'mode': 'active',
+      \ 'passive_filetypes': ['scala']
+      \ }
 
 set bg=dark
 set number
