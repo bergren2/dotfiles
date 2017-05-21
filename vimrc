@@ -24,13 +24,13 @@ Plug 'groenewege/vim-less', { 'for': 'less' }
 Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
 Plug 'jiangmiao/auto-pairs'
 Plug 'jalvesaq/Nvim-R', { 'for': 'r' }
+Plug 'jremmen/vim-ripgrep'
 Plug 'junegunn/vim-github-dashboard', { 'on': ['GHDashboard', 'GHActivity'] }
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 Plug 'kien/ctrlp.vim'
 Plug 'keith/swift.vim', { 'for': 'swift' }
 Plug 'kovisoft/slimv', { 'for': ['lisp', 'scheme'] }
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
-Plug 'mileszs/ack.vim'
 Plug 'msanders/cocoa.vim'
 Plug 'mustache/vim-mustache-handlebars', { 'for': 'html.handlebars' }
 Plug 'nathanaelkane/vim-indent-guides'
@@ -70,7 +70,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 let mapleader = ";"
 
 noremap ;; ;
-nnoremap <leader>a :Ack<space>
+nnoremap <leader>r :Rg<space>
 let g:ctrlp_root_markers = ['.ctrlp']
 nnoremap <leader>p :CtrlPClearCache<cr>
 nnoremap <leader>y :YcmRestartServer<cr>
