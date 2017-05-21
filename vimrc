@@ -119,7 +119,7 @@ let g:syntastic_filetype_map = {
       \ 'html.handlebars': 'handlebars'
       \ }
 
-let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_javascript_checkers = ['jsxhint']
 let g:syntastic_html_tidy_ignore_errors = [
       \ 'escaping malformed URI reference',
       \ 'proprietary attribute',

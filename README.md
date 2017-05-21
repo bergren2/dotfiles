@@ -30,7 +30,7 @@ Homebrew's version of Mono doesn't really work well here, unfortunately.
 
 Some Node libraries to install:
 
-    $ npm install -g jshint
+    $ npm install -g jsxhint
 
 Then the easy part:
 
