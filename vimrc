@@ -11,6 +11,7 @@ call plug#begin('~/.vim/plugged')
 
 " GitHub repos
 Plug 'airblade/vim-gitgutter'
+Plug 'alvan/vim-closetag', { 'for': ['html', 'javascript.jsx'] }
 Plug 'avakhov/vim-yaml', { 'for': 'yaml' }
 Plug 'burnettk/vim-angular', { 'for': 'javascript' }
 Plug 'chrisbra/csv.vim', { 'for': 'csv' }
@@ -35,9 +36,10 @@ Plug 'kovisoft/slimv', { 'for': ['lisp', 'scheme'] }
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 Plug 'msanders/cocoa.vim'
 Plug 'mustache/vim-mustache-handlebars', { 'for': 'html.handlebars' }
+Plug 'mxw/vim-jsx', { 'for': 'javascript.jsx' }
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'othree/html5.vim', { 'for': 'html' }
-Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
+Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'rudes/vim-java', { 'for': 'java' }
 Plug 'scrooloose/nerdtree'
@@ -160,6 +162,8 @@ let g:UltiSnipsJumpForwardTrigger='<c-k>'
 let g:UltiSnipsJumpBackwardTrigger='<c-j>'
 let g:UltiSnipsSnippetDirectories=['UltiSnips']
 let g:UltiSnipsEditSplit='context'
+
+let g:closetag_filenames = '*.html,*.jsx,*.xhtml,*.phtml'
 
 au FileType ruby compiler ruby
 au FileType xml exe ":silent %!xmllint --format --recover - 2>/dev/null"
