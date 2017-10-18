@@ -43,7 +43,6 @@ Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'rudes/vim-java', { 'for': 'java' }
 Plug 'scrooloose/nerdtree'
-Plug 'scrooloose/syntastic'
 Plug 'SirVer/ultisnips'
 Plug 'StanAngeloff/php.vim', { 'for': 'php' }
 Plug 'timcharper/textile.vim', { 'for': 'textile' }
@@ -64,6 +63,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-ruby/vim-ruby', { 'for': 'ruby' }
 Plug 'vim-scripts/SQLComplete.vim', { 'for': 'sql' }
+Plug 'w0rp/ale'
 
 call plug#end()
 
@@ -174,6 +174,9 @@ let g:airline_powerline_fonts = 1
 let g:airline_theme = "tomorrow"
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
+
+let g:airline#extensions#ale#enabled = 1
+let g:ale_python_flake8_options = "--ignore E265,E266,E501"
 
 " slimv
 let g:lisp_rainbow=1
