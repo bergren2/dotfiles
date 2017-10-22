@@ -46,6 +46,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'SirVer/ultisnips'
 Plug 'StanAngeloff/php.vim', { 'for': 'php' }
 Plug 'timcharper/textile.vim', { 'for': 'textile' }
+Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-cucumber'
 Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-endwise'
