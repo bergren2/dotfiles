@@ -37,7 +37,7 @@ Plug 'kovisoft/slimv', { 'for': ['lisp', 'scheme'] }
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 Plug 'msanders/cocoa.vim'
 Plug 'mustache/vim-mustache-handlebars', { 'for': 'html.handlebars' }
-Plug 'mxw/vim-jsx', { 'for': 'javascript.jsx' }
+Plug 'mxw/vim-jsx', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'othree/html5.vim', { 'for': 'html' }
 Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] }
@@ -121,23 +121,7 @@ let g:ycm_filetype_blacklist = {
       \ 'yaml' : 1
       \ }
 
-let g:syntastic_filetype_map = {
-      \ 'html.handlebars': 'handlebars'
-      \ }
-
-let g:syntastic_javascript_checkers = ['jsxhint']
-let g:syntastic_html_tidy_ignore_errors = [
-      \ 'escaping malformed URI reference',
-      \ 'proprietary attribute',
-      \ 'trimming empty',
-      \ 'is not recognized!',
-      \ 'discarding unexpected',
-      \ 'plain text isn''t allowed in <head> elements'
-      \ ]
-let g:syntastic_mode_map = {
-      \ 'mode': 'active',
-      \ 'passive_filetypes': ['scala']
-      \ }
+let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 
 set bg=dark
 set number
