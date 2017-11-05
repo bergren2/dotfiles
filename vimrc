@@ -163,6 +163,9 @@ let g:airline_right_sep = ''
 
 let g:airline#extensions#ale#enabled = 1
 let g:ale_python_flake8_options = "--ignore E265,E266,E501"
+let g:ale_linters = {
+      \ 'javascript': ['eslint'],
+      \ }
 
 " slimv
 let g:lisp_rainbow=1
