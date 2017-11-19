@@ -19,7 +19,7 @@ It's a nice font that supports Powerline characters.
 
 Next,
 
-    $ brew install cmake node ripgrep vim --with-custom-python
+    $ brew install cmake node ripgrep tidy-html5 vim --with-custom-python
 
 At this point I check to make sure I have `+python` enabled so YouCompleteMe works.
 This is easy to do via `vim --version`.
