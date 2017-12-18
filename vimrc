@@ -161,6 +161,7 @@ let g:airline_theme = "tomorrow"
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 
+let g:ale_completion_enabled = 1
 let g:airline#extensions#ale#enabled = 1
 let g:ale_python_flake8_options = "--ignore E265,E266,E501"
 let g:ale_linters = {
