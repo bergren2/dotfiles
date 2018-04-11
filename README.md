@@ -74,10 +74,12 @@ for theming.
 
 For .NET and other Windows-y languages, we use Visual Studio. [Community](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx) should do the trick but if you need Pro or Ultimate you'll need to contact your school, work, etc.
 
-Here are some plugins you might want to install:
+Here are some extensions you might want to install:
 - https://github.com/jaredpar/VsVim
 - https://github.com/laurentkempe/GitDiffMargin
+- https://github.com/madskristensen/EditorConfigLanguage
 - https://github.com/madskristensen/TrailingWhitespace
+- https://github.com/pharring/EditorGuidelines
 
 When this list becomes too long we'll think about automating their installation.
 
