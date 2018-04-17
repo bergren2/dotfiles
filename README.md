@@ -14,9 +14,6 @@ using
 
     $ sudo xcodebuild -license
 
-
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbergren2%2Fdotvim.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbergren2%2Fdotvim?ref=badge_large)
-
 ## Installation
 
 First, install [Source Code Pro](https://github.com/adobe-fonts/source-code-pro).
@@ -94,3 +91,9 @@ Since we try to stay consistent between editors, our theme of choice is
 [Tomorrow](https://github.com/chriskempson/tomorrow-theme) by Chris Kempson.
 It's available for Vim, Eclipse, Visual Studio, and a lot of other editors you
 might use.
+
+## License
+
+See LICENSE for details.
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbergren2%2Fdotvim.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbergren2%2Fdotvim?ref=badge_large)
