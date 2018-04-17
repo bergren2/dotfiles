@@ -106,7 +106,7 @@ syntax on
 " make 80 and 120 character limits easier to see
 let &colorcolumn="81,".join(range(121,999),",")
 
-set wildignore+=*/bower_components/*,*/build/*,*/node_modules/*,*/tmp/*,*.so,*.swp,*.zip,*.class
+set wildignore+=*/bin/*,*/bower_components/*,*/build/*,*/node_modules/*,*/obj/*,*/tmp/*,*.so,*.swp,*.zip,*.class,*.dll
 
 autocmd FileType javascript setlocal omnifunc=tern#Complete
 
