@@ -110,9 +110,6 @@ set wildignore+=*/bin/*,*/bower_components/*,*/build/*,*/node_modules/*,*/obj/*,
 
 autocmd FileType javascript setlocal omnifunc=tern#Complete
 
-let g:ycm_auto_start_csharp_server = 1
-let g:ycm_auto_stop_csharp_server = 1
-
 let g:ycm_filetype_blacklist = {
       \ 'gitcommit' : 1,
       \ 'liquid' : 1,
