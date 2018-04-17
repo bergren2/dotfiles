@@ -1,4 +1,6 @@
 # ohai .vim
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbergren2%2Fdotvim.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbergren2%2Fdotvim?ref=badge_shield)
+
 
 My Vim files.
 
@@ -11,6 +13,9 @@ Xcode (from the App Store), you'll need to accept their terms from the terminal
 using
 
     $ sudo xcodebuild -license
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbergren2%2Fdotvim.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbergren2%2Fdotvim?ref=badge_large)
 
 ## Installation
 
