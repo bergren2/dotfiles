@@ -28,7 +28,8 @@ This is easy to do via `vim --version`.
 
 If you're using OmniSharp for C# completion, you'll need to
 [download and install](http://www.mono-project.com/download/) the latest Mono.
-Homebrew's version of Mono doesn't really work well here, unfortunately.
+You can do this through Homebrew but you also might have it already installed
+via Unity.
 
 Some Node libraries to install:
 
