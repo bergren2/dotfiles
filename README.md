@@ -19,10 +19,7 @@ It's a nice font that supports Powerline characters.
 
 Next,
 
-    $ brew install cmake node ripgrep tidy-html5 vim --with-custom-python
-
-At this point I check to make sure I have `+python` enabled so YouCompleteMe works.
-This is easy to do via `vim --version`.
+    $ brew install cmake node ripgrep tidy-html5 vim
 
 If you're using OmniSharp for C# completion, you'll need to
 [download and install](http://www.mono-project.com/download/) the latest Mono.

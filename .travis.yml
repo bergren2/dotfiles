@@ -1,6 +1,6 @@
 os: osx
 before_install:
-  - brew install ripgrep tidy-html5 vim --with-custom-python
+  - brew install ripgrep tidy-html5 vim
   - npm install -g jsxhint eslint
 jobs:
   - ruby install.rb
