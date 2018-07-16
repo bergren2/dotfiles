@@ -1,0 +1,5 @@
+brew "cmake"
+brew "node"
+brew "ripgrep"
+brew "tidy-html5"
+brew "vim"

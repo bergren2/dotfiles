@@ -21,7 +21,7 @@ It's a nice font that supports Powerline characters.
 
 Next,
 
-    $ brew install cmake node ripgrep tidy-html5 vim
+    $ brew bundle
 
 If you're using OmniSharp for C# completion, you'll need to
 [download and install](http://www.mono-project.com/download/) the latest Mono.
