@@ -59,7 +59,7 @@ Plug 'tpope/vim-liquid'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-surround'
 Plug 'udalov/kotlin-vim'
-Plug 'Valloric/MatchTagAlways'
+"Plug 'Valloric/MatchTagAlways'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --cs-completer --js-completer' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -176,3 +176,8 @@ if $TERM_PROGRAM =~ "iTerm"
 endif
 
 set nofoldenable
+
+" https://github.com/vim/vim/issues/3117
+if has('python3')
+  silent! python3 1
+endif
