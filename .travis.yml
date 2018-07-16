@@ -1,8 +1,9 @@
+language: ruby
 os: osx
 before_install:
   - brew bundle
   - npm install -g jsxhint eslint
-jobs:
+script:
   - ruby install.rb
   - mkdir autoload
   - vim +PlugInstall
