@@ -1,0 +1,13 @@
+os: osx
+before_install:
+  - brew install cmake node ripgrep tidy-html5 vim --with-custom-python
+  - npm install -g jsxhint eslint
+addons:
+  apt:
+    update: true
+jobs:
+  - ruby install.rb
+  - mkdir autoload
+  - vim +PlugInstall
+notifications:
+  email: false
