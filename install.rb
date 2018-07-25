@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'fileutils'
+require "fileutils"
 
 puts "Setting up vim..."
 
@@ -18,7 +18,7 @@ end
 
 here = File.dirname(__FILE__)
 
-['vimrc', 'gvimrc', 'ackrc', 'vrapperrc'].each do |name|
+["vimrc", "gvimrc", "ackrc", "vrapperrc"].each do |name|
   path = File.expand_path(name, here)
   link_with_check(path, File.expand_path("~/.#{name}"))
 end
