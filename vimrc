@@ -176,8 +176,3 @@ if $TERM_PROGRAM =~ "iTerm"
 endif
 
 set nofoldenable
-
-" https://github.com/vim/vim/issues/3117
-if has('python3')
-  silent! python3 1
-endif
