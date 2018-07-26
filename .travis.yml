@@ -4,6 +4,7 @@ before_install:
   - brew bundle
   - npm install -g jsxhint eslint
 script:
+  - mkdir ~/.vim
   - ruby install.rb
   - cd ~/.vim
   - mkdir autoload
