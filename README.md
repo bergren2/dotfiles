@@ -23,11 +23,6 @@ Next,
 
     $ brew bundle
 
-If you're using OmniSharp for C# completion, you'll need to
-[download and install](http://www.mono-project.com/download/) the latest Mono.
-You can do this through Homebrew but you also might have it already installed
-via Unity.
-
 Some Node libraries to install:
 
     $ npm install -g jsxhint eslint
