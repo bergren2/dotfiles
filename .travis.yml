@@ -5,6 +5,7 @@ before_install:
   - npm install -g jsxhint eslint
 script:
   - ruby install.rb
+  - cd ~/.vim
   - mkdir autoload
   - vim +PlugInstall
 branches:
