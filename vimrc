@@ -60,7 +60,7 @@ Plug 'tpope/vim-rails'
 Plug 'tpope/vim-surround'
 Plug 'udalov/kotlin-vim'
 "Plug 'Valloric/MatchTagAlways'
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --cs-completer --js-completer' }
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --js-completer' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-ruby/vim-ruby', { 'for': 'ruby' }
@@ -158,11 +158,13 @@ let g:airline_theme = "tomorrow"
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 
+" Linting
 let g:ale_completion_enabled = 1
 let g:airline#extensions#ale#enabled = 1
 let g:ale_python_flake8_options = "--ignore E265,E266,E501"
 let g:ale_linters = {
       \ 'javascript': ['eslint'],
+      \ 'ruby': ['rubocop']
       \ }
 
 " slimv
