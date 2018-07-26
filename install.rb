@@ -21,7 +21,7 @@ end
 HERE = File.dirname(__FILE__)
 DOTVIM_DIR = '~/.vim'.freeze
 
-%w[ftdetect ftplugin UltiSnips].each do |dir|
+%w[colors ftdetect ftplugin UltiSnips].each do |dir|
   puts "Copying #{dir} into #{DOTVIM_DIR}..."
   path = File.expand_path(dir, HERE)
   FileUtils.copy_entry(path, File.expand_path(dir, DOTVIM_DIR))
