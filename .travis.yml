@@ -8,7 +8,7 @@ script:
   - ruby install.rb
   - cd ~/.vim
   - mkdir autoload
-  - vim +PlugInstall
+  - vim +PlugInstall +qa
 branches:
   only:
     - master
