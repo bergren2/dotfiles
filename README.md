@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/bergren2/dotvim.svg?branch=master)](https://travis-ci.com/bergren2/dotvim)
+[![Build Status](https://travis-ci.com/bergren2/dotfiles.svg?branch=master)](https://travis-ci.com/bergren2/dotfiles)
 
 # ohai .vim
 
