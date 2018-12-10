@@ -34,6 +34,10 @@ Then the easy part:
     $ mkdir autoload
     $ vim +PlugInstall
 
+Finally, you'll want to set yourself up to sign commits locally.
+  - [Generating a new GPG key](https://help.github.com/articles/generating-a-new-gpg-key/)
+  - [Telling Git about your signing key](https://help.github.com/articles/telling-git-about-your-signing-key/)
+
 ### Troubleshooting
 
 If Vim crashes due to Python errors, make sure you have Python installed before
