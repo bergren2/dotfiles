@@ -40,6 +40,7 @@ Plug 'mustache/vim-mustache-handlebars', { 'for': 'html.handlebars' }
 Plug 'mxw/vim-jsx', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'othree/html5.vim', { 'for': 'html' }
+Plug 'OmniSharp/omnisharp-vim', { 'for': 'cs' }
 Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'rudes/vim-java', { 'for': 'java' }
@@ -164,7 +165,8 @@ let g:airline#extensions#ale#enabled = 1
 let g:ale_python_flake8_options = "--ignore E265,E266,E501"
 let g:ale_linters = {
       \ 'javascript': ['eslint'],
-      \ 'ruby': ['rubocop']
+      \ 'ruby': ['rubocop'],
+      \ 'cs': ['OmniSharp']
       \ }
 
 " slimv
@@ -178,3 +180,5 @@ if $TERM_PROGRAM =~ "iTerm"
 endif
 
 set nofoldenable
+
+let g:OmniSharp_server_use_mono = 1
