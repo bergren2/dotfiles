@@ -27,7 +27,7 @@ DOTVIM_DIR = '~/.vim'.freeze
   FileUtils.copy_entry(path, File.expand_path(dir, DOTVIM_DIR))
 end
 
-%w[vimrc gvimrc ackrc vrapperrc].each do |name|
+%w[vimrc gvimrc ackrc vrapperrc gitignore_global].each do |name|
   path = File.expand_path(name, HERE)
   link_with_check(path, File.expand_path("~/.#{name}"))
 end
