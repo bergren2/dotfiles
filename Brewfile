@@ -1,6 +1,7 @@
 brew "cmake"
 brew "libuv"
 brew "node"
+brew "rbenv"
 brew "ripgrep"
 brew "tidy-html5"
 brew "vim"

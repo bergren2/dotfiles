@@ -22,9 +22,7 @@ It's a nice font that supports Powerline characters.
 Next,
 
     $ brew bundle
-
-Some Node libraries to install:
-
+    $ rbenv install
     $ npm install -g jsxhint eslint
 
 Then the easy part:
