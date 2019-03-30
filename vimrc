@@ -131,6 +131,8 @@ set scrolloff=0
 set nowrap
 set cursorline
 set laststatus=2
+set hlsearch
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 set list
 set listchars=tab:▸\ ,eol:¬
