@@ -68,6 +68,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-ruby/vim-ruby', { 'for': 'ruby' }
 Plug 'vim-scripts/SQLComplete.vim', { 'for': 'sql' }
+Plug 'vim-scripts/vbnet.vim', { 'for': 'vbnet' }
 Plug 'w0rp/ale'
 
 call plug#end()
