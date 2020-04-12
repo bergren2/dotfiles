@@ -34,6 +34,7 @@ Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 Plug 'kien/ctrlp.vim'
 Plug 'keith/swift.vim', { 'for': 'swift' }
 Plug 'kovisoft/slimv', { 'for': ['lisp', 'scheme'] }
+Plug 'leafgarland/typescript-vim', { 'for': ['typescript'] }
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 Plug 'msanders/cocoa.vim'
 Plug 'mustache/vim-mustache-handlebars', { 'for': 'html.handlebars' }
