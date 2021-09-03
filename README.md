@@ -32,6 +32,10 @@ Then the easy part:
     $ mkdir autoload
     $ vim +PlugInstall
 
+## Updating
+
+    $ vim +PlugInstall
+
 ### Troubleshooting
 
 If Vim crashes due to Python errors, make sure you have Python installed before
