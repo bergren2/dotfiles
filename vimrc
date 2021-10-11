@@ -28,7 +28,6 @@ Plug 'groenewege/vim-less', { 'for': 'less' }
 Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
 Plug 'jiangmiao/auto-pairs'
 Plug 'jalvesaq/Nvim-R', { 'for': 'r' }
-Plug 'jremmen/vim-ripgrep'
 Plug 'junegunn/vim-github-dashboard', { 'on': ['GHDashboard', 'GHActivity'] }
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 Plug 'kien/ctrlp.vim'
@@ -189,3 +188,8 @@ endif
 set nofoldenable
 
 let g:OmniSharp_server_use_mono = 1
+
+if executable("rg")
+  set grepprg=rg\ --vimgrep\ --no-heading
+  set grepformat=%f:%l:%c:%m,%f:%l:%m
+endif
