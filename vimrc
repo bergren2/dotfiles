@@ -133,7 +133,6 @@ set scrolloff=0
 set nowrap
 set cursorline
 set laststatus=2
-set relativenumber
 set hlsearch
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
