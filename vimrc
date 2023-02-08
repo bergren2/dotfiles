@@ -24,6 +24,7 @@ Plug 'elzr/vim-json', { 'for': 'json' }
 Plug 'gcmt/taboo.vim'
 Plug 'gerw/vim-HiLinkTrace'
 Plug 'godlygeek/tabular'
+Plug 'google/vim-jsonnet', { 'for': 'jsonnet' }
 Plug 'groenewege/vim-less', { 'for': 'less' }
 Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
 Plug 'jiangmiao/auto-pairs'
