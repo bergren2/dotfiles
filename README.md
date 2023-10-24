@@ -75,7 +75,7 @@ Here are some extensions you might want to install:
 - https://github.com/laurentkempe/GitDiffMargin
 - https://github.com/madskristensen/EditorConfigLanguage
 - https://github.com/madskristensen/TrailingWhitespace
-- https://github.com/fpicalausa/Color-Column
+- https://github.com/pharring/EditorGuidelines
 
 When this list becomes too long we'll think about automating their installation.
 
