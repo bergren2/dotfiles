@@ -16,6 +16,7 @@ Plug 'avakhov/vim-yaml', { 'for': 'yaml' }
 Plug 'burnettk/vim-angular', { 'for': 'javascript' }
 Plug 'chrisbra/csv.vim', { 'for': 'csv' }
 Plug 'claco/jasmine.vim', { 'for': 'javascript' }
+Plug 'dense-analysis/ale'
 Plug 'derekwyatt/vim-scala', { 'for': 'scala' }
 Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
 Plug 'editorconfig/editorconfig-vim'
@@ -63,14 +64,12 @@ Plug 'tpope/vim-rails'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'udalov/kotlin-vim'
-"Plug 'Valloric/MatchTagAlways'
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --js-completer' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-ruby/vim-ruby', { 'for': 'ruby' }
 Plug 'vim-scripts/SQLComplete.vim', { 'for': 'sql' }
 Plug 'vim-scripts/vbnet.vim', { 'for': 'vbnet' }
-Plug 'w0rp/ale'
+Plug 'ycm-core/YouCompleteMe', { 'do': './install.py --all' }
 
 call plug#end()
 
