@@ -68,14 +68,22 @@ for theming.
 
 ## What about .NET?
 
-For .NET and other Windows-y languages, we use Visual Studio. [Community](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx) should do the trick but if you need Pro or Ultimate you'll need to contact your school, work, etc.
+For .NET and other Windows-y languages, we use Visual Studio or Rider.
+
+### Visual Studio
+
+[Community](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx) should do the trick but if you need Pro or Ultimate you'll need to contact your school, work, etc. If you need Visual Studio to build but don't actually want to use it, you can use the [Visual Studio Build Tools](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022).
 
 Here are some extensions you might want to install:
 - https://github.com/jaredpar/VsVim
 - https://github.com/laurentkempe/GitDiffMargin
 - https://github.com/pharring/EditorGuidelines
 
-When this list becomes too long we'll think about automating their installation.
+You also probably want [ReSharper](https://www.jetbrains.com/resharper/).
+
+### Rider
+
+Rider has everything you want built-in already! And you're probably already syncing your extensions to your JetBrains account. Huzzah!
 
 ## Theming
 
