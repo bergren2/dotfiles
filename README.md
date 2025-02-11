@@ -16,7 +16,7 @@ using
 
 ## Installation
 
-First, install [Source Code Pro](https://github.com/adobe-fonts/source-code-pro).
+First, install [JetBrainsMono Nerd Font](https://www.nerdfonts.com/).
 It's a nice font that supports Powerline characters.
 
 Next,
