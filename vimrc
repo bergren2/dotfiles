@@ -31,6 +31,7 @@ Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
 Plug 'jiangmiao/auto-pairs'
 Plug 'jalvesaq/Nvim-R', { 'for': 'r' }
 Plug 'junegunn/vim-github-dashboard', { 'on': ['GHDashboard', 'GHActivity'] }
+Plug 'jszakmeister/vim-togglecursor'
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 Plug 'kien/ctrlp.vim'
 Plug 'keith/swift.vim', { 'for': 'swift' }
@@ -191,4 +192,9 @@ let g:OmniSharp_server_use_mono = 1
 if executable("rg")
   set grepprg=rg\ --vimgrep\ --no-heading
   set grepformat=%f:%l:%c:%m,%f:%l:%m
+endif
+
+" tabby cursor shenanigans
+if $TERM_PROGRAM == 'Tabby'
+  let g:togglecursor_force = 'xterm'
 endif
