@@ -16,3 +16,7 @@ if not ($env.PATH | any {|p| $p == $godot_bin_path}) {
 if ($env.GODOT? | is-empty) {
     $env.GODOT = $"($godot_bin_path)/godot"
 }
+
+# bun environment variables
+$env.BUN_INSTALL = ($env.HOME | path join ".bun")
+$env.PATH = ($env.PATH | split row (char esep) | prepend ($env.BUN_INSTALL | path join "bin") | str join (char esep))
