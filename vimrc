@@ -21,6 +21,7 @@ Plug 'derekwyatt/vim-scala', { 'for': 'scala' }
 Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
 Plug 'editorconfig/editorconfig-vim'
 Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
+Plug 'elkasztano/nushell-syntax-vim'
 Plug 'elzr/vim-json', { 'for': 'json' }
 Plug 'gcmt/taboo.vim'
 Plug 'gerw/vim-HiLinkTrace'
