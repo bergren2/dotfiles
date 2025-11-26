@@ -17,6 +17,13 @@ if ($env.GODOT? | is-empty) {
     $env.GODOT = $"($godot_bin_path)/godot"
 }
 
+# fnm
+fnm env --json | from json | load-env
+$env.PATH = $env.PATH | append $env.FNM_MULTISHELL_PATH
+
+# uv
+$env.PATH = $env.PATH | prepend ($nu.home-path)/.local/bin
+
 # bun environment variables
 $env.BUN_INSTALL = ($env.HOME | path join ".bun")
 $env.PATH = ($env.PATH | split row (char esep) | prepend ($env.BUN_INSTALL | path join "bin") | str join (char esep))
